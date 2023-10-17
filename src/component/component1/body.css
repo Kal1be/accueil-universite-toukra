@@ -73,6 +73,9 @@ form button{
     width: 100%;
 
 }
+.form-check{
+   margin: 10px 0 !important;
+}
 
 @media(max-width:1000px){
    
@@ -103,8 +106,8 @@ form{
     #container p{
         line-height: 1.2rem;
         font-weight: 400;
-        font-family: "Roboto";
-        font-size: 18px;
+        font-family: "Roboto",sans-serif;
+        font-size: 16px;
         text-align: justify;
     }
     #row div{

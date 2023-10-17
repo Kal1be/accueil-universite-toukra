@@ -72,7 +72,7 @@ La vie universitaire</h4>
           <option value="9">Sciences Humaines</option>
           </select>
   </div>
-  <div class="mb-lg-2 mb-1 form-check">
+  <div class="mb-lg-2 mb-2 form-check">
     <input type="checkbox" class="form-check-input" id="exampleCheck1"/>
     <label class="form-check-label" for="exampleCheck1">Accepter et continuer</label>
   </div>
