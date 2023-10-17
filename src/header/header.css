@@ -1,0 +1,102 @@
+:root{
+    --primary:#33a0f8;
+    --second:#333;
+    --warning:#fff;
+    --secondary:#e3e3e3;
+    --danger:#ffd700;
+}
+
+/* *******************the contain off header***************************** */
+#contain{
+    color:var(--warning);
+ padding:0 40px ;
+ align-items: center;
+padding-top: 10px;
+padding-bottom: 0 !important;
+margin: 0 0 !important;
+background-color:var(--primary);
+}
+#contain input{
+    margin: 0 0 !important;
+    padding: 0 3px !important;
+    background-color: rgb(232, 242, 252) !important;
+    font-size: 14px;
+}
+#contain span span{
+    align-items: center;
+    font-weight: 800;
+    font-size: 15px;
+    cursor: pointer;
+}
+#contain span:hover{
+    color: var(--danger);
+}
+.blue{
+    color:var(--warning) ;
+    font-size: 20px;
+    margin: 0 10px;
+    align-items: center;
+    font-weight: bold !important;
+}
+.blue:hover{
+    color: var(--secondary);
+}
+#text{
+    font-size: 15px !important;
+    cursor: pointer;
+    color: #333;
+    border-radius: 10px;
+    font-weight: 400 !important;
+    font-size: 16px;
+}
+#text:hover{
+    color:var(--warning) !important;
+    background-color: #5399f4 !important;
+}
+
+/* ***********************the media queries for the small screen****************************** */
+@media(max-width:1020px){
+    #contain{
+        color:var(--warning);
+     padding:0 20px ;
+     align-items: center;
+    padding-top: 8px;
+    padding-bottom: 0 !important;
+    margin: 0 0 !important;
+    height: 100%;
+    }
+    #top{
+margin: 10px 0;
+    }
+
+    .blue{
+        color:var(--warning) ;
+        font-size: 18px;
+        margin: 0 10px;
+        align-items: center;
+        font-weight: bold !important;
+    }
+    #contain span span{
+        align-items: center;
+        font-weight: 400;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+  #text{
+    font-size: 16px !important;
+    cursor: pointer;
+    color: #333;
+    border-radius: 10px;
+    font-weight: 500 !important;
+  }
+  #contain input{
+    margin: 0 0 !important;
+    padding: 0 3px !important;
+    background-color: rgb(232, 242, 252) !important;
+    font-size: 18px;
+}
+#tope{
+ padding-bottom: 6px;
+        }
+}

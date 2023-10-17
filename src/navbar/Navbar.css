@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+/* regularisation du navbar et de ces contenu */
+
+/* ************************* the navbar bouton menu hamburger ************************************** */
+  .bar1, .bar2, .bar3 {
+    width: 23px;
+    height: 1px;
+    background-color: #333;
+    margin: 4px 0;
+    transition: 0.4s;
+    border: 1px solid #333;
+    border-radius: 10%;
+  }
+  .navbar-toggler{
+    border: none !important;
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    right: 6px;
+    top: 13px;
+  }
+
+
+  /* ****************************************the navbar brand**************************************************************** */
+ 
+  .nav-item{
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px !important;
+   font-weight:600;
+   font-size: 17px !important;
+   padding: 0 0;
+   font-family: "Roboto";
+  }
+  .navbar-brand img{
+    /* width: px; */
+    height: 54px;
+    object-fit: cover;
+    margin-top: 5px;
+    margin-right: 2.3px;
+  }
+
+  .navbar-brand span{
+    font-size: 2px;
+    font-weight: 300;
+}
+
+#navbar{
+  padding: 0 0;
+  align-items: center;
+}
+#nav{
+padding: 0 0;
+align-items: center;
+}
+
+@media(max-width:1054px){
+  .nav-item{
+    margin: 0 4px;
+  }
+  .navbar-brand img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+  
+  }
+
+  .divider {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    width: 100px;
+    position: absolute;
+    left: 68px;
+    top:56%;
+    font-weight: 200;
+  }
+ 
+
+}
+
+  .divider {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    width: 100px;
+    position: absolute;
+    left: 72px;
+    top:56%;
+    font-weight: 200;
+  }
+  .divider img{
+    width: 15px;
+    height: 15px;
+    object-fit: contain;
+    border-radius: 30%;
+  }
+  
+  .divider::before, .divider::after {
+    flex: 1;
+    content: '';
+    padding: .7px;
+    background-color:rgb(5, 72, 196);
+    margin: 5px;
+  }
+  #navbar .navbar-brand{
+    font-size: 27px;
+    letter-spacing: -0.00001rem;
+    word-spacing: -0.11rem;
+    font-family: "Roboto",sans-serif;
+   
+  }
+  #navbar .navbar-brand strong{
+    font-weight: 600;
+    color: #33a0f8;
+  }
+  #nav .navbar-brand{
+    font-size: 27px;
+    letter-spacing: -0.00001rem;
+    word-spacing: -0.11rem;
+    font-family: "Roboto",sans-serif;
+   
+  }
+  #nav .navbar-brand strong{
+    font-weight: 600;
+    color: #33a0f8;
+  }
+
+  #navbar{
+    padding-top: 0 !important;
+
+  }
+
+  #nav{
+    background-color: whitesmoke;
+    position: fixed;
+    top: -150px;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+    z-index: 100;
+    padding-top: 0 !important;
+   
+  }
+  @media(max-width:986px){
+    #navbar{
+        padding: 0 0;
+        align-items: center;
+    }
+    #nav{
+      padding: 0 0;
+      align-items: center;
+    }
+    #navbar .navbar-brand{
+      font-size: 18px;
+      letter-spacing: -0.0009rem;
+    word-spacing: -0.09rem;
+    }
+    #navbar .navbar-brand strong{
+      font-size: 18px;
+      letter-spacing: -0.0009rem;
+    word-spacing: -0.09rem;
+    font-weight: 500;
+    color: #33a0f8;
+    }
+    #nav .navbar-brand{
+      font-size: 18px;
+      letter-spacing: -0.0009rem;
+    word-spacing: -0.09rem;
+    }
+    #nav .navbar-brand strong{
+      font-size: 18px;
+      letter-spacing: -0.0009rem;
+    word-spacing: -0.09rem;
+    font-weight: 500;
+    color: #33a0f8;
+    }
+    .navbar-brand img{
+  width: 40px;
+  height: 43px;
+ 
+    }
+    .image1{
+      padding-top:3px;
+    }
+    .nav-item:hover{
+      border-bottom: none;
+      align-items: center;
+    }
+    
+  .divider {
+    font-size: 1px;
+    display: flex;
+    align-items: center;
+    width: 100px;
+    left: 51px;
+    top:60%;
+  }
+  .divider img{
+    width: 14px;
+    height: 14px;
+    object-fit: contain;
+  }
+  
+  .divider::before, .divider::after {
+    flex: 1;
+    content: '';
+    padding:.1px;
+    background-color:rgb(5, 72, 196);
+    margin:6px;
+    width: 20px;
+  }
+
+  .nav-item{
+    margin:0 10px;
+    padding: 1px 0;
+    border-bottom: 1px solid gainsboro;
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+      }
+ .nav-link span{
+  display: flex;
+  float: right;
+  font-weight: 400;
+ }
+ .nav-link{
+  font-size: 16px;
+ }
+    
+  }

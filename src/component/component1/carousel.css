@@ -1,0 +1,128 @@
+/* ****************** le caroussel et son affichage sur le telephone********************************8 */
+.carousel-item img{
+    height: 700px;
+    object-fit: cover;
+}
+
+#carouselExampleAutoplaying .carousel-item:before {
+    content: '';
+    display: block;
+    position: absolute;
+    padding: 0 20px;
+    background-image: linear-gradient(#0b1c39be,#0b1c39c4);
+    width: 100vw;
+    top: 0;
+    height: 700px;
+  }
+  #carousel-indicators button{
+  width: 5px;
+  height: 5px;
+  padding: 2px;
+     border-radius: 50%;
+  }
+  #btn button{
+    position: absolute;
+    top: 50%;
+    width: 3%;
+    height: 5%;
+    padding: 2px;
+    border-radius: 30px;
+    border: 1px solid white;
+    object-fit: cover;
+    font-size: 18px;
+    margin: 0 30px;
+    font-weight: bold !important;
+    transition: .5s linear;
+  }
+  #btn button:hover{
+    background-color: #33a0f8;
+    color: white !important;
+    border: 1px solid #33a0f8;
+    font-size: 19px;
+    animation: felix .3s linear infinite;
+  }
+  @keyframes felix {
+    0%{font-size: 20px;}
+    100%{
+    font-size: 22px;
+    padding: 3px;
+    }
+  }
+  #carousel-caption{
+    position: absolute;
+    top: 35%;
+  }
+  #carousel-caption h3{
+    font-family:'Times New Roman', Times, serif;
+    padding: 0%;
+    font-size: 40px;
+    overflow: hidden;
+    font-weight: bold;
+  }
+  #carousel-caption p{
+    font-size: 25px;
+  }
+  #carousel-caption button{
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+ color: white;
+ font-size: 18px;
+ padding: 8px 10px;
+ border-radius: 20px;
+ font-weight: bold;
+ transition: .5s linear;
+  }
+  #carousel-caption button:hover{
+    background-color: rgb(8, 61, 206);
+    border: 1px solid rgb(8, 61, 206) ;
+  }
+
+ 
+/* fin de la partie d'icon et son responsive  */
+@media(max-width:1100px){
+    .carousel-item img{
+        height: 470px;
+        object-fit: cover;
+    }
+    #carouselExampleAutoplaying .carousel-item:before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 100vw;
+        top: 0;
+        height: 500px;
+      }
+      #btn button{
+        position: absolute;
+        top: 70%;
+        width: 9%;
+        height: 7%;
+        padding: 2px;
+        border-radius: 50%;
+        border: 1px solid white;
+        object-fit: cover;
+        font-size: 17px;
+        margin: 0 15px;
+        display: none;
+      }
+
+      #carousel-caption h3{
+        font-family:'Times New Roman', Times, serif;
+        padding: 0%;
+        font-size: 23px;
+        overflow: hidden;
+        font-weight: bold;
+      }
+      #carousel-caption p{
+        font-size: 16px;
+      }
+      #carousel-caption button{
+        background-color: transparent;
+        border: 1px solid white;
+     color: white;
+     font-size: 20px;
+     padding: 6px 12px;
+     border-radius: 20px;
+     font-weight: bold;
+      }
+}

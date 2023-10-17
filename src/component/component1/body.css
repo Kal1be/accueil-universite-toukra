@@ -1,0 +1,151 @@
+#container img{
+    width: 74px;
+    height: 74px;
+margin-bottom: 4px;
+}
+#container{
+  padding: 10px 30px;
+  /* overflow-x: hidden; */
+}
+#row div{
+    margin: 10px;
+}
+
+#container h4{
+    font-family: "Roboto",sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #3c3c3c;
+}
+
+#container p{
+    font-size: 20px;
+    font-family: "Roboto",sans-serif;
+}
+
+/* ***********************the form validation with their element and his input****************************** */
+
+form h3{
+    font-family: "Roboto",sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #3c3c3c;
+}
+
+
+form{
+    position: relative;
+    margin-top: -80px;
+    background-color: white;
+    /* margin-left: -70px; */
+    width: 420px;
+}
+@media(max-width:1500px){
+form{
+    width: 330px;
+    margin-right: 30px;
+}
+}
+@media(max-width:1300px){
+    form{
+        margin-right: 100px;
+    }
+}
+@media(max-width:1400px){
+    form{
+        width: 310px;
+        margin-left: -60px;
+    }
+}
+form label{
+    font-weight: 400;
+    font-family: "Roboto";
+    font-size: 18px;
+}
+#input{
+    padding: 13px;
+}
+
+form{
+    border-radius: 20px;
+}
+form button{
+    width: 100%;
+
+}
+
+@media(max-width:1000px){
+   
+    
+form{
+    position: relative;
+    margin-top:0;
+    background-color: white;
+    /* margin-left: -70px; */
+    width: 400px;
+    margin-left:0;
+}
+}
+
+
+@media(max-width:700px){
+    #container img{
+        width: 50px;
+        height: 50px;
+    
+    }
+    #container h4{
+        font-family: "Roboto",sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        color: #3c3c3c;
+    }
+    #container p{
+        line-height: 1.2rem;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #row div{
+        margin:0;
+        padding:4px 20px;
+    }
+    #container{
+        padding: 4px 10px;
+         overflow-x: hidden;
+      }
+
+/* ***********************the element of the form in the small screen****************************** */
+      form h3{
+        font-family: "Roboto",sans-serif;
+        font-size: 23px;
+        font-weight: 600;
+        color: #3c3c3c;
+    }
+    
+    
+    form{
+        position: relative;
+        margin-top: 0;
+        background-color: white;
+        /* margin-left: -70px; */
+        width: 100%;
+    }
+    form label{
+        font-weight: 400;
+        font-family: "Roboto";
+        font-size: 16px;
+    }
+    #input{
+        padding: 10px;
+    }
+    
+    form{
+        border-radius: 20px;
+    }
+    form button{
+        width: 100%;
+    
+    }
+}
