@@ -9,8 +9,8 @@ function Home() {
     <div>
       <Carousel/>
     <Body/>
+    <Flipcard/>
     <Center/>
-    {/* <Flipcard/> */}
     </div>
   )
 }
