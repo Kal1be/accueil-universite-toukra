@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&family=Roboto:wght@300;400;500&display=swap');
+
 :root{
     --primary:#33a0f8;
     --second:#333;
@@ -25,8 +27,9 @@ background-color:var(--primary);
 #contain span span{
     align-items: center;
     font-weight: 800;
-    font-size: 15px;
+    font-size: 16px;
     cursor: pointer;
+    font-family: "Oswald",sans-serif;
 }
 #contain span:hover{
     color: var(--danger);
@@ -36,7 +39,6 @@ background-color:var(--primary);
     font-size: 20px;
     margin: 0 10px;
     align-items: center;
-    font-weight: bold !important;
 }
 .blue:hover{
     color: var(--secondary);

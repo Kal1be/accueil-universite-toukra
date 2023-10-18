@@ -57,7 +57,7 @@ La vie universitaire</h4>
     <label for="exampleInputPassword1" class="form-label">Telephone</label>
     <input type="text" class="form-control"  id='input'/>
   </div>
-  <div className="mb-lg-2  mb-1">
+  <div className="mb-lg-3  mb-3">
     <label htmlFor="" class="form-label">Selectionner un cours</label>
   <select class="form-select" aria-label="Default select example"  id='input'>
         <option selected>Cours</option>
@@ -72,11 +72,11 @@ La vie universitaire</h4>
           <option value="9">Sciences Humaines</option>
           </select>
   </div>
-  <div class="mb-lg-2 mb-2 form-check">
+  <div class="mb-lg-2 mt-lg-2 mt-2 mb-2 form-check">
     <input type="checkbox" class="form-check-input" id="exampleCheck1"/>
     <label class="form-check-label" for="exampleCheck1">Accepter et continuer</label>
   </div>
-  <button type="submit" class="btn btn-primary">Postuler</button>
+  <button type="submit" class="btn btn-primary mt-2">Postuler</button>
 </form>
         </div>
       </div>

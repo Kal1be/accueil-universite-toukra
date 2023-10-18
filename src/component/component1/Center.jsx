@@ -36,7 +36,7 @@ Nous sommes une institution d'apprentissage et d'expertisme</h3>
               raisonne avec sagesse et agisse avec humanité tout en cultivant une
               vie pleine de sens". 
              </p>
-            <h6><FontAwesomeIcon icon={faPhone}/>+235 66 93 93 77</h6>
+            <h6><FontAwesomeIcon icon={faPhone}/> contact:+235 66 93 93 77</h6>
         </div>
       </div>
      </div>
