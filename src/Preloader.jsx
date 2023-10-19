@@ -10,7 +10,7 @@ function Preloader() {
     useEffect(()=>{
         setTimeout(() => {
             setIsloaded(true)
-        },4000);
+        },6000);
     },[])
     if(!isloaded){
        return(

@@ -62,13 +62,13 @@ function Flipcard() {
 
 
       <div class="flip-card ">
-  <div class="flip-card-inner rounded-0 shadow">
-    <div class="flip-card-front">
+  <div class="flip-card-inner rounded-2 shadow">
+    <div class="flip-card-front  rounded-2 ">
     <h1>Kalibe felix</h1>
       <p>Developer</p>
       <p>We love that guy</p>
     </div>
-    <div class="flip-card-back">
+    <div class="flip-card-back  rounded-2 ">
     <h1>Kalibe felix</h1>
       <p>Developer</p>
       <p>We love that guy</p>
@@ -80,13 +80,13 @@ function Flipcard() {
           </div>
           <div className="col-md-4 col-12  ">
       <div class="flip-card  ">
-  <div class="flip-card-inner rounded-0 shadow">
-    <div class="flip-card-front">
+  <div class="flip-card-inner rounded-2 shadow">
+    <div class="flip-card-front  rounded-2 ">
     <h1>Kalibe felix</h1>
       <p>Developer</p>
       <p>We love that guy</p>
     </div>
-    <div class="flip-card-back">
+    <div class="flip-card-back  rounded-2 ">
       <h1>Kalibe felix</h1>
       <p>Developer</p>
       <p>We love that guy</p>
@@ -97,17 +97,15 @@ function Flipcard() {
 
           </div>
           <div className="col-md-4 col-12 ">
-            
 
-
-      <div class="flip-card ">
-  <div class="flip-card-inner rounded-0 shadow">
-    <div class="flip-card-front">
+      <div class="flip-card  rounded-2  ">
+  <div class="flip-card-inner  rounded-2  shadow">
+    <div class="flip-card-front  rounded-2 ">
     <h1>Kalibe felix</h1>
       <p>Developer</p>
       <p>We love that guy</p>
     </div>
-    <div class="flip-card-back">
+    <div class="flip-card-back  rounded-2 ">
       <h1>Kalibe felix</h1>
       <p>Developer</p>
       <p>We love that guy</p>
