@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     display: block;
-    width: 90%;
+    width: 92%;
     height:500px;
     border:none;
      /* perspective: 1000px;  */
@@ -56,7 +56,7 @@
   /* ********************************88des element of my contains  */
 
   #mycontain{
-    background-color:#2680f6;
+    background-color:#4190f6;
    height: 400px;
   padding: 50px 0;
   margin: 10px 0;
@@ -149,6 +149,30 @@ margin-top: -30px;
     position: relative;
     margin-top: -150px;
     padding: 0 100px;
+   left: 0;
+   right: 0;
+  }
+
+  .otp1{
+    font-size: 46px;
+    font-weight: bold;
+    margin-top: 40px;
+    font-family: "Roboto",sans-serif;
+  }
+  .otp2{
+    font-size:30px;
+    margin-top: 30px;
+  }
+  #myfliper p{
+    font-size: 24px;
+    font-family: "Roboto",sans-serif;
+    color: rgb(141, 141, 141);
+    padding: 10px 20px;
+  }
+  #myfliper h2{
+    color: #2680f6;
+    font-family: "Roboto",sans-serif;
+    opacity: .7;
   }
 
   @media(max-width:1000px){
@@ -159,12 +183,31 @@ margin-top: -30px;
     }
     .flip-card{
       width: 100%;
-      height: 330px;
+      height: 400px;
+    }
+
+
+    .otp1{
+      font-size: 36px;
+      font-weight: bold;
+      margin-top: 30px;
+      font-family: "Roboto",sans-serif;
+    }
+    #myfliper p{
+      font-size: 17px;
+      font-family: "Roboto",sans-serif;
+      color: rgb(141, 141, 141);
+      padding: 5px 20px;
+    }
+    #myfliper h2{
+      color: #2680f6;
+      font-family: "Roboto",sans-serif;
+      opacity: .7;
     }
   }
-  #myfliper col{
+  /* #myfliper col{
     width:100%;
     height: 500px;
-    /* margin: 0 20px; */
+   
     background-color: white;
-  }
+  } */

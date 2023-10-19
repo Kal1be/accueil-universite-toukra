@@ -61,17 +61,23 @@ function Flipcard() {
             
 
 
-      <div class="flip-card ">
+      <div class="flip-card rounded-3 ">
   <div class="flip-card-inner rounded-2 shadow">
     <div class="flip-card-front  rounded-2 ">
-    <h1>Kalibe felix</h1>
-      <p>Developer</p>
-      <p>We love that guy</p>
+    <h1 className="otp1"><strong>AXE 1</strong></h1>
+    <h2>Enseignements</h2>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit
+      . Veritatis recusandae ratione earum sequi, qui illo doloribus
+      autem laborum nemo facilis temporibus necessitatibus dignissimos
+       error dolorem, beatae tempora officia mollitia quisquam.</p>
     </div>
     <div class="flip-card-back  rounded-2 ">
-    <h1>Kalibe felix</h1>
-      <p>Developer</p>
-      <p>We love that guy</p>
+    <h1 className="otp2">Orientations</h1>
+    <h2>Centres de conseils</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing
+         elit. Placeat deleniti beatae aliquam et odit 
+         suscipit veniam eligendi enim corporis reiciendis?</p>
+         <button className="btn btn-outline-light">Suivez nous</button>
     </div>
   </div>
 </div>
@@ -82,14 +88,20 @@ function Flipcard() {
       <div class="flip-card  ">
   <div class="flip-card-inner rounded-2 shadow">
     <div class="flip-card-front  rounded-2 ">
-    <h1>Kalibe felix</h1>
-      <p>Developer</p>
-      <p>We love that guy</p>
+    <h1 className="otp1"><strong>AXE 2</strong></h1>
+     <h2>Conseils</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit
+      . Veritatis recusandae ratione earum sequi, qui illo doloribus
+      autem laborum nemo facilis temporibus necessitatibus dignissimos
+       error dolorem, beatae tempora officia mollitia quisquam.</p>
     </div>
     <div class="flip-card-back  rounded-2 ">
-      <h1>Kalibe felix</h1>
-      <p>Developer</p>
-      <p>We love that guy</p>
+      <h1 className="otp2">Nos Formations</h1>
+      <h2>Liste de nos programmes</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing
+         elit. Placeat deleniti beatae aliquam et odit 
+         suscipit veniam eligendi enim corporis reiciendis?</p>
+         <button className="btn btn-outline-light">Nos formations</button>
     </div>
   </div>
 </div>
@@ -101,14 +113,20 @@ function Flipcard() {
       <div class="flip-card  rounded-2  ">
   <div class="flip-card-inner  rounded-2  shadow">
     <div class="flip-card-front  rounded-2 ">
-    <h1>Kalibe felix</h1>
-      <p>Developer</p>
-      <p>We love that guy</p>
+    <h1 className="otp1"><strong>AXE 3</strong></h1>
+    <h2>Developpement</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit
+      . Veritatis recusandae ratione earum sequi, qui illo doloribus
+      autem laborum nemo facilis temporibus necessitatibus dignissimos
+       error dolorem, beatae tempora officia mollitia quisquam.</p>
     </div>
     <div class="flip-card-back  rounded-2 ">
-      <h1>Kalibe felix</h1>
-      <p>Developer</p>
-      <p>We love that guy</p>
+      <h1 className="otp2">Bibliotheques</h1>
+    <h2 > Lire plus avec nous</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing
+         elit. Placeat deleniti beatae aliquam et odit 
+         suscipit veniam eligendi enim corporis reiciendis?</p>
+         <button className="btn btn-outline-light">Suivez nous</button>
     </div>
   </div>
 </div>
