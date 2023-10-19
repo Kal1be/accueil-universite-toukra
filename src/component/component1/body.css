@@ -36,10 +36,10 @@ form h3{
 
 form{
     position: relative;
-    margin-top: -80px;
+    margin-top: -70px;
     background-color: white;
     /* margin-left: -70px; */
-    width:95%;
+    width:100%;
 }
 @media(max-width:1500px){
 form{

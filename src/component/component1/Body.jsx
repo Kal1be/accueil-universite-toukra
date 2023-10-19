@@ -10,7 +10,7 @@ function Body() {
   return (
     <div className='container-fluid' id='container'>
       <div className="row row-cols-lg-2 row-cols-1">
-        <div className="col-lg-8 col-12">
+        <div className="col-lg-9 col-12">
             <div className="row" id='row'>
                 <div className="col-sm-6 col-12">
                   <img hre src={img4} alt="l'icon ne peut"/>
@@ -41,7 +41,7 @@ La vie universitaire</h4>
                 </div>
             </div>
         </div>
-        <div className="col-lg-4 col-12">
+        <div className="col-lg-3 col-12">
 
 <form className='border shadow p-4'>
   <h3>Pour s'inscrire Suivez ses instructions</h3>
