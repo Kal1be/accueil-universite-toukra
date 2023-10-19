@@ -69,7 +69,7 @@ function Flipcard() {
      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit
       . Veritatis recusandae ratione earum sequi, qui illo doloribus
       autem laborum nemo facilis temporibus necessitatibus dignissimos
-       error dolorem, beatae tempora officia mollitia quisquam.</p>
+      </p>
     </div>
     <div class="flip-card-back  rounded-2 ">
     <h1 className="otp2">Orientations</h1>
@@ -93,7 +93,7 @@ function Flipcard() {
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit
       . Veritatis recusandae ratione earum sequi, qui illo doloribus
       autem laborum nemo facilis temporibus necessitatibus dignissimos
-       error dolorem, beatae tempora officia mollitia quisquam.</p>
+     </p>
     </div>
     <div class="flip-card-back  rounded-2 ">
       <h1 className="otp2">Nos Formations</h1>
@@ -118,7 +118,7 @@ function Flipcard() {
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit
       . Veritatis recusandae ratione earum sequi, qui illo doloribus
       autem laborum nemo facilis temporibus necessitatibus dignissimos
-       error dolorem, beatae tempora officia mollitia quisquam.</p>
+      </p>
     </div>
     <div class="flip-card-back  rounded-2 ">
       <h1 className="otp2">Bibliotheques</h1>
