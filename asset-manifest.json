@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/accueil-universite-toukra/static/css/main.9a939bd7.css",
-    "main.js": "/accueil-universite-toukra/static/js/main.7a5da1f6.js",
+    "main.css": "/accueil-universite-toukra/static/css/main.557a3110.css",
+    "main.js": "/accueil-universite-toukra/static/js/main.07588809.js",
     "static/media/reel1.jpg": "/accueil-universite-toukra/static/media/reel1.cfc81c02a76262f3f816.jpg",
     "static/media/etudian.jpg": "/accueil-universite-toukra/static/media/etudian.60e6a44216ac108d897e.jpg",
     "static/media/reel4.jpg": "/accueil-universite-toukra/static/media/reel4.0404c745a8ea59387c2b.jpg",
@@ -9,11 +9,11 @@
     "static/media/im6.png": "/accueil-universite-toukra/static/media/im6.40014b17cc21ede78ae2.png",
     "static/media/drapeau1.png": "/accueil-universite-toukra/static/media/drapeau1.250c0417b141098a0e42.png",
     "index.html": "/accueil-universite-toukra/index.html",
-    "main.9a939bd7.css.map": "/accueil-universite-toukra/static/css/main.9a939bd7.css.map",
-    "main.7a5da1f6.js.map": "/accueil-universite-toukra/static/js/main.7a5da1f6.js.map"
+    "main.557a3110.css.map": "/accueil-universite-toukra/static/css/main.557a3110.css.map",
+    "main.07588809.js.map": "/accueil-universite-toukra/static/js/main.07588809.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a939bd7.css",
-    "static/js/main.7a5da1f6.js"
+    "static/css/main.557a3110.css",
+    "static/js/main.07588809.js"
   ]
 }
