@@ -56,7 +56,7 @@
   /* ********************************88des element of my contains  */
 
   #mycontain{
-    background-color: #33a0f8;
+    background-color:#2680f6;
    height: 400px;
   padding: 50px 0;
   margin: 10px 0;
@@ -96,7 +96,6 @@ margin-top: -30px;
 
   @media(max-width:800px){
     #mycontain{
-      background-color: #33a0f8;
      height: 500px;
     padding: 20px 0;
     }

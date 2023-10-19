@@ -39,11 +39,11 @@ form{
     margin-top: -80px;
     background-color: white;
     /* margin-left: -70px; */
-    width:460px;
+    width:95%;
 }
 @media(max-width:1500px){
 form{
-    width: 350px;
+    width: 90%;
     margin-right: 20px;
 }
 }
@@ -54,7 +54,7 @@ form{
 }
 @media(max-width:1400px){
     form{
-        width: 310px;
+        width:80%;
         margin-left: -60px;
     }
 }
@@ -64,7 +64,8 @@ form label{
     font-size: 18px;
 }
 #input{
-    padding: 13px;
+    padding: 8px 10px;
+    border-radius: 20px;
 }
 
 form{
