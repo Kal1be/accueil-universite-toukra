@@ -17,7 +17,7 @@ function Footer() {
               Campus de Toukra,Ndjamèna, 
               Ndjamèna Tchad.</p>  
                 </div>
-    <div className="col-lg-3 col-md-6 col-12">
+    <div className="col-lg-3 col-md-6 col-12" id="mytopelement">
     <h3 className="mx-md-4 mx-3">installations et services</h3>
     <ul>
       <li> Centre de conseil et de developpement
@@ -27,7 +27,7 @@ function Footer() {
       <li> Directions des Affaires</li>
     </ul>
     </div>
-    <div className="col-lg-3 col-md-6 col-12">
+    <div className="col-lg-3 col-md-6 col-12" id="mytopelement">
     <h3 className="mx-md-4 mx-3">Autres liens</h3>
     <ul>
       <li>Bibliotheques de l'universitè</li>
@@ -36,7 +36,7 @@ function Footer() {
       <li>Librairies de l'universitè</li>
     </ul>
     </div>
-    <div className="col-lg-3 col-md-6 col-12">
+    <div className="col-lg-3 col-md-6 col-12" id="mytopelement">
     <h3 className="mx-md-4 mx-3">Facultes</h3>
     <ul>
       <li>Facultè des Langues et Lettres Arts et Communication</li>

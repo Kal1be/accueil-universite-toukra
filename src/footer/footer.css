@@ -11,7 +11,7 @@
 }
 #containerfooter h3{
   font-family: sans-serif;
-  font-weight:500;
+  font-weight:600;
   font-size: 22px;
 }
 #containerfooter p{
@@ -20,6 +20,9 @@
   color: gray;
   line-height: 2.5rem;
   margin-left: 15px;
+}
+#mytopelement{
+  margin-top: 20px;
 }
 #containerfooter ul li{
   font-family: sans-serif;
@@ -65,8 +68,8 @@
   }
   .iconfooter{
     margin: 0 15px;
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
     border-radius: 50%;
     color: rgb(39, 113, 252);
     padding: 8px;
@@ -79,12 +82,15 @@ background-color: rgb(39, 113, 252);
 color: white;
   }
   #endfooter span{
-   font-size: 17px;
+   font-size: 15px;
    font-family:sans-serif;
    color: gray;
   }
   
   @media (max-width:800px){
+    #mytopelement{
+      margin-top: 5px;
+    }
     #containerfooter{
       background-color: whitesmoke;
      margin-top: 50px;

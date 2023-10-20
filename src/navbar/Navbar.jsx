@@ -11,7 +11,7 @@ function Navbar() {
        <Header/>
      <nav className="navbar navbar-expand-lg px-lg-2 px-0 shadow border bg-white" id='navbar'>
   <div className="container-fluid">
- <NavLink className='navbar-brand' to="#"><img src={img2} alt="" className='image1'/>Universite de <strong >Toukra</strong><span className="divider"><img src={img1} alt="the problem is there" /></span></NavLink>
+<Link className='navbar-brand' to="#"><img src={img2} alt="" className='image1'/>Universite de <strong >Toukra</strong><span className="divider"><img src={img1} alt="the problem is there" /></span></Link>
 
     {/* the bouton navbar icon toggle */}
     
@@ -25,31 +25,31 @@ function Navbar() {
   <div className="collapse navbar-collapse justify-content-end d-lg-none" id="navbarSupportedContent">
     <ul className="navbar-nav">
       <li className="nav-item">
-       <NavLink className="nav-link active" aria-current="page" to="#/">Accueil</NavLink>
+      <Link className="nav-link active" aria-current="page" to="#/">Accueil</Link>
       </li>
       <li class="nav-item">
-         <NavLink class="nav-link" to="/">
+        <Link class="nav-link" to="/">
             Recherches
-          </NavLink>
+          </Link>
         </li>
         
       <li className="nav-item ">
-       <NavLink className="nav-link" to="#" >
+      <Link className="nav-link" to="#" >
           Facultes
-        </NavLink>
+        </Link>
       
       </li>
       <li className="nav-item">
-         <NavLink className="nav-link" to="#">Instituts&amp;Centres </NavLink>
+        <Link className="nav-link" to="#">Instituts&amp;Centres </Link>
       
 
         </li> 
      
         <li className="nav-item">
-         <NavLink className="nav-link " to="#">Nouvelles  </NavLink>
+        <Link className="nav-link " to="#">Nouvelles  </Link>
         </li>
         <li className="nav-item">
-         <NavLink className="nav-link" to="#">Biblioteques  </NavLink>
+        <Link className="nav-link" to="#">Biblioteques  </Link>
         </li>
     </ul>
   </div>
@@ -63,68 +63,68 @@ function Navbar() {
     <div className="offcanvas-body scroll-auto">
     <ul className="navbar-nav">
       <li className="nav-item">
-       <NavLink className="nav-link " aria-current="page" to="/accueil">Accueil</NavLink>
+      <Link className="nav-link " aria-current="page" to="/">Accueil</Link>
       </li>
       <li class="nav-item" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-         <NavLink class="nav-link " >
+        <Link class="nav-link " >
             Recherches
-          </NavLink>
+          </Link>
           <ul class="dropdown-menu">
-            <li className='nav-item'><NavLink class="dropdown-item" to="#/admission">Admission et nouvelles</NavLink></li>
-            <li className="nav-item"><NavLink class="dropdown-item" to="/politiques">Politiques de Confidentialites</NavLink></li>
-            <li className="nav-item"><NavLink class="dropdown-item" to="/librairies">Librairies</NavLink></li>
-            <li className="nav-item"><NavLink class="dropdown-item" to="/politiques">Ecoles Doctorales</NavLink></li>
-            <li className="nav-item"><NavLink class="dropdown-item" to="/librairies">Droits d'auteur</NavLink></li>
+            <li className='nav-item'><Link class="dropdown-item" to="/accueil">Admission et nouvelles</Link></li>
+            <li className="nav-item"><Link class="dropdown-item" to="/politiques">Politiques de Confidentialites</Link></li>
+            <li className="nav-item"><Link class="dropdown-item" to="/librairies">Librairies</Link></li>
+            <li className="nav-item"><Link class="dropdown-item" to="/politiques">Ecoles Doctorales</Link></li>
+            <li className="nav-item"><Link class="dropdown-item" to="/librairies">Droits d'auteur</Link></li>
           </ul>
         </li>
         
       <li className="nav-item" >
-       <NavLink className="nav-link" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <Link className="nav-link"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
           Facultes
-        </NavLink>
+        </Link>
         <ul class="dropdown-menu ">
-            <li className="nav-item"><NavLink class="dropdown-item" to="#">Faculte de Communication</NavLink></li>
-            <li className="nav-item"><NavLink class="dropdown-item" to="#">Faculte de science Humaines</NavLink></li>
-            <li className="nav-item"><NavLink class="dropdown-item" to="#">Faculte de Droits</NavLink></li>
-            <li className="nav-item"><NavLink class="dropdown-item" to="#">Facultes de Sciences Politiques</NavLink></li>
-            <li className="nav-item"><NavLink class="dropdown-item" to="#">Facultes de l'Education</NavLink></li>
+            <li className="nav-item"><Link class="dropdown-item" to="#">Faculte de Communication</Link></li>
+            <li className="nav-item"><Link class="dropdown-item" to="#">Faculte de science Humaines</Link></li>
+            <li className="nav-item"><Link class="dropdown-item" to="#">Faculte de Droits</Link></li>
+            <li className="nav-item"><Link class="dropdown-item" to="#">Facultes de Sciences Politiques</Link></li>
+            <li className="nav-item"><Link class="dropdown-item" to="#">Facultes de l'Education</Link></li>
           </ul>
       
       </li>
       <li className="nav-item" >
-         <NavLink className="nav-link" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Instituts&amp;Centres </NavLink>
+        <Link className="nav-link" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Instituts&amp;Centres </Link>
        
          <ul class=" dropdown-menu">
-            <li className="nav-item"><NavLink class="dropdown-item" to="#">Ecoles de doctorat</NavLink></li>
-            <li className="nav-item"><NavLink class="dropdown-item" to="#">Centres de Formation Humaines</NavLink></li>
-            <li className="nav-item"><NavLink class="dropdown-item" to="#">Voir plus ...</NavLink></li>
+            <li className="nav-item"><Link class="dropdown-item" to="#">Ecoles de doctorat</Link></li>
+            <li className="nav-item"><Link class="dropdown-item" to="#">Centres de Formation Humaines</Link></li>
+            <li className="nav-item"><Link class="dropdown-item" to="#">Voir plus ...</Link></li>
           </ul>
 
         </li> 
      
         <li className="nav-item" >
-         <NavLink className="nav-link " role="button" data-bs-toggle="dropdown" aria-expanded="false" to="#">Nouvelles </NavLink>
+        <Link className="nav-link " role="button" data-bs-toggle="dropdown" aria-expanded="false" to="#">Nouvelles </Link>
           <ul class="dropdown-menu">
-            <li className="nav-item"><NavLink class="dropdown-item" to="#">Action</NavLink></li>
-            <li className="nav-item"><NavLink class="dropdown-item" to="#">Another action</NavLink></li>
-            <li className="nav-item"><NavLink class="dropdown-item" to="#">Something else here</NavLink></li>
+            <li className="nav-item"><Link class="dropdown-item" to="#">Action</Link></li>
+            <li className="nav-item"><Link class="dropdown-item" to="#">Another action</Link></li>
+            <li className="nav-item"><Link class="dropdown-item" to="#">Something else here</Link></li>
           </ul>
         </li>
         <li className="nav-item" >
-         <NavLink className="nav-link" role="button" data-bs-toggle="dropdown" aria-expanded="false" to="#">Biblioteques</NavLink>
+        <Link className="nav-link" role="button" data-bs-toggle="dropdown" aria-expanded="false" to="#">Biblioteques</Link>
           <ul class="dropdown-menu">
-            <li className="nav-item"><NavLink class="dropdown-item" to="#">Action</NavLink></li>
-            <li className="nav-item"><NavLink class="dropdown-item" to="#">Another action</NavLink></li>
-            <li className="nav-item"><NavLink class="dropdown-item" to="#">Something else here</NavLink></li>
+            <li className="nav-item"><Link class="dropdown-item" to="#">Action</Link></li>
+            <li className="nav-item"><Link class="dropdown-item" to="#">Another action</Link></li>
+            <li className="nav-item"><Link class="dropdown-item" to="#">Something else here</Link></li>
           </ul>
         </li>
 
         <li className="nav-item" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-         <NavLink className="nav-link" role="button" data-bs-toggle="dropdown" aria-expanded="false" to="#">Recherches et Innovations</NavLink>
+        <Link className="nav-link" role="button" data-bs-toggle="dropdown" aria-expanded="false" to="#">Recherches et Innovations</Link>
           <ul class="dropdown-menu">
-            <li className="nav-item"><NavLink class="dropdown-item" to="#">Action</NavLink></li>
-            <li className="nav-item"><NavLink class="dropdown-item" to="#">Another action</NavLink></li>
-            <li className="nav-item"><NavLink class="dropdown-item" to="#">Something else here</NavLink></li>
+            <li className="nav-item"><Link class="dropdown-item" to="#">Action</Link></li>
+            <li className="nav-item"><Link class="dropdown-item" to="#">Another action</Link></li>
+            <li className="nav-item"><Link class="dropdown-item" to="#">Something else here</Link></li>
           </ul>
         </li>
     </ul>
@@ -145,7 +145,7 @@ function Navbar() {
 
 <nav className="navbar navbar-custom navbar-expand-lg px-lg-2 px-sm-0 shadow border " id="nav">
   <div className="container-fluid">
- <NavLink className='navbar-brand' to="#"><img src={img2} alt="" className='image1'/>Universite de <strong >Toukra</strong><span className="divider"><img src={img1} alt="the problem is there" /></span></NavLink>
+<Link className='navbar-brand' to="#"><img src={img2} alt="" className='image1'/>Universite de <strong >Toukra</strong><span className="divider"><img src={img1} alt="the problem is there" /></span></Link>
 
     {/* the bouton navbar icon toggle */}
     
@@ -159,26 +159,26 @@ function Navbar() {
   <div className="collapse navbar-collapse justify-content-end d-lg-none" id="navbarSupportedContent">
     <ul className="navbar-nav">
       <li className="nav-item">
-       <NavLink className="nav-link active" aria-current="page" to="#">Accueil</NavLink>
+      <Link className="nav-link active" aria-current="page" to="#">Accueil</Link>
       </li>
       <li className="nav-item">
-       <NavLink className="nav-link" to="#">Recherche</NavLink>
+      <Link className="nav-link" to="#">Recherche</Link>
       </li>
       <li className="nav-item ">
-       <NavLink className="nav-link" to="#" >
+      <Link className="nav-link" to="#" >
           Facultes
-        </NavLink>
+        </Link>
        
       </li>
       <li className="nav-item">
-         <NavLink className="nav-link" to="#">Instituts&amp;Centres </NavLink>
+        <Link className="nav-link" to="#">Instituts&amp;Centres </Link>
          
         </li> 
         <li className="nav-item">
-         <NavLink className="nav-link" to="#">Nouvelles  </NavLink>
+        <Link className="nav-link" to="#">Nouvelles  </Link>
         </li>
         <li className="nav-item">
-         <NavLink className="nav-link" to="#">Biblioteques  </NavLink>
+        <Link className="nav-link" to="#">Biblioteques  </Link>
         </li>
     </ul>
   </div>

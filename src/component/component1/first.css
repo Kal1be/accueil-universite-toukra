@@ -11,7 +11,7 @@
     color: white;
 }
 #elemento div{
-    background-color:#4190f6;
+    background-color:#33a0f8;
     color: white;
     padding: 20px;
 }
@@ -19,6 +19,7 @@
     font-family: "Roboto";
     font-size: 22px;
     text-align: justify;
+    color: white;
 }
 
 

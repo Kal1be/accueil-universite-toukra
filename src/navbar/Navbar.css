@@ -89,8 +89,8 @@ align-items: center;
     align-items: center;
     width: 100px;
     position: absolute;
-    left: 72px;
-    top:56%;
+    left: 74px;
+    top:59%;
     font-weight: 200;
   }
   .divider img{
@@ -136,7 +136,7 @@ align-items: center;
   }
 
   #nav{
-    background-color: whitesmoke;
+    background-color: white;
     position: fixed;
     top: -150px;
     width: 100%;

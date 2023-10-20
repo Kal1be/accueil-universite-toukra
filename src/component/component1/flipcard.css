@@ -59,7 +59,7 @@
   /* ********************************88des element of my contains  */
 
   #mycontain{
-    background-color:#4190f6;
+    background-color:#33a0f8;
    height: 500px;
   padding: 50px 0;
   margin: 10px 0;
@@ -116,7 +116,7 @@ margin-top: -30px;
     #myrow p{
       font-family: "Roboto",sans-serif;
       font-size: 16px;
-      color: #d3d3d3;
+      color: #e4e2e2;
       text-align: center;
     }
     #myrow p span{

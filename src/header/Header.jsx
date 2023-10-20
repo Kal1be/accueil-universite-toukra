@@ -10,23 +10,23 @@ function Header() {
         <div className="container-fluid" id='contain'>
           <div className="row">
           
-           <div className="col-lg-5 col-7 col-md-8 mt-1" id="top">
+           <div className="col-xl-5 col-lg-3 col-8 col-md-8 mt-1" id="top">
             <FontAwesomeIcon icon={faFacebook} className="blue"/>
             <FontAwesomeIcon icon={faInstagram} className="blue"/>
             <FontAwesomeIcon icon={faTwitter} className="blue"/>
             <FontAwesomeIcon icon={faWhatsapp} className="blue"/>
             </div>
-            <div className="col-lg-2 col-md-3 col-9 mt-1"  id="top">
+            <div className="col-xl-2 col-lg-3 col-md-3 col-7 d-lg-block d-xm-block  d-md-flex justify-content-end mt-1 "  id="top">
                <span className="border py-1 px-lg-3 px-2 bg-white " id="text">Contactez-nous</span>
             </div>
           
-           <div className="col-lg-2 col-md-6">
+           <div className="col-lg-2 col-md-6 col-sm-8 ">
            <div class="input-group mb-3">
         <input type="search" class="form-control" placeholder="search..."  aria-describedby="basic-addon1"/>
         <span class="input-group-text" id="basic-addon1"><FontAwesomeIcon icon={faSearch} className="text-primary"/></span>
       </div>
                 </div>
-            <div className="col-lg-3 col-md-5 col-12" id="tope">
+            <div className="col-lg-3  d-md-flex justify-content-end col-md-5 col-12 " id="tope">
             <span> <FontAwesomeIcon icon={faHomeUser}className="blue"/><span>Se connecter</span></span>
              <span> <FontAwesomeIcon icon={ faPenToSquare} className="blue"/><span>Postuler</span></span>
                 </div>

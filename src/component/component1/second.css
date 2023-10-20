@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&family=Roboto:wght@300;400;500&display=swap');
 
 .colorblue{
-    color: rgb(45, 110, 252);
+    color: #33a0f8;
 }
 .modifiant{
     display: flex;
@@ -99,6 +99,17 @@
         margin: auto;
         display: flex;
     
+}
+#identifiant span{
+    font-size: 14px;
+    font-weight: 300;
+    display: block;
+}
+
+.colorblue{
+    color: #33a0f8;
+    font-size: 14px;
+    margin: 0 2px;
 }
 
 }
