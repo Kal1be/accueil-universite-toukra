@@ -28,7 +28,7 @@ function Preloader() {
   <Navbar/>
   <Routes>
     <Route path='/' element={<Home/>}/>
-    <Route path='/admission' element={<Admission/>} />
+    <Route path='admission' element={<Admission/>} />
   </Routes>
   <Footer/>
   </>

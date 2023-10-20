@@ -1,6 +1,7 @@
 import './Navbar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {Link } from "react-router-dom"
+import {Link} from "react-router-dom"
+import { NavLink } from 'react-router-dom'
 import img1 from "../img/img1/drapeau1.png"
 import img2 from "../img/img1/im6.png";
 import Header from '../header/Header';
@@ -10,7 +11,7 @@ function Navbar() {
        <Header/>
      <nav className="navbar navbar-expand-lg px-lg-2 px-0 shadow border bg-white" id='navbar'>
   <div className="container-fluid">
-  <Link className='navbar-brand' to="#"><img src={img2} alt="" className='image1'/>Universite de <strong >Toukra</strong><span className="divider"><img src={img1} alt="the problem is there" /></span></Link>
+ <NavLink className='navbar-brand' to="#"><img src={img2} alt="" className='image1'/>Universite de <strong >Toukra</strong><span className="divider"><img src={img1} alt="the problem is there" /></span></NavLink>
 
     {/* the bouton navbar icon toggle */}
     
@@ -24,31 +25,31 @@ function Navbar() {
   <div className="collapse navbar-collapse justify-content-end d-lg-none" id="navbarSupportedContent">
     <ul className="navbar-nav">
       <li className="nav-item">
-        <Link className="nav-link active" aria-current="page" to="#">Accueil</Link>
+       <NavLink className="nav-link active" aria-current="page" to="#/">Accueil</NavLink>
       </li>
       <li class="nav-item">
-          <Link class="nav-link" to="#">
+         <NavLink class="nav-link" to="/">
             Recherches
-          </Link>
+          </NavLink>
         </li>
         
       <li className="nav-item ">
-        <Link className="nav-link" to="#" >
+       <NavLink className="nav-link" to="#" >
           Facultes
-        </Link>
+        </NavLink>
       
       </li>
       <li className="nav-item">
-          <Link className="nav-link" to="#">Instituts&amp;Centres  <FontAwesomeIcon icon="{faChevronDown}/" /></Link>
+         <NavLink className="nav-link" to="#">Instituts&amp;Centres </NavLink>
       
 
         </li> 
      
         <li className="nav-item">
-          <Link className="nav-link " to="#">Nouvelles  <FontAwesomeIcon icon="{faChevronDown}/" /></Link>
+         <NavLink className="nav-link " to="#">Nouvelles  </NavLink>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="#">Biblioteques  <FontAwesomeIcon icon="{faChevronDown}/" /></Link>
+         <NavLink className="nav-link" to="#">Biblioteques  </NavLink>
         </li>
     </ul>
   </div>
@@ -60,31 +61,74 @@ function Navbar() {
       <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" />
     </div>
     <div className="offcanvas-body scroll-auto">
-     
     <ul className="navbar-nav">
       <li className="nav-item">
-        <Link className="nav-link" aria-current="page" >Accueil</Link>
+       <NavLink className="nav-link " aria-current="page" to="/accueil">Accueil</NavLink>
       </li>
-      <li className="nav-item">
-        <Link className="accordion-header" >Recherche</Link>
-      </li>
-      <li className="nav-item ">
-        <Link className="accordion-header" >
-          Facultes
-        </Link>
-       
-      </li>
-      <li className="nav-item">
-          <Link className="accordion-header" >Instituts&amp;Centres </Link>
-         
-        </li> 
-        <li className="nav-item">
-          <Link className="accordion-header" >Nouvelles  </Link>
+      <li class="nav-item" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+         <NavLink class="nav-link " >
+            Recherches
+          </NavLink>
+          <ul class="dropdown-menu">
+            <li className='nav-item'><NavLink class="dropdown-item" to="#/admission">Admission et nouvelles</NavLink></li>
+            <li className="nav-item"><NavLink class="dropdown-item" to="/politiques">Politiques de Confidentialites</NavLink></li>
+            <li className="nav-item"><NavLink class="dropdown-item" to="/librairies">Librairies</NavLink></li>
+            <li className="nav-item"><NavLink class="dropdown-item" to="/politiques">Ecoles Doctorales</NavLink></li>
+            <li className="nav-item"><NavLink class="dropdown-item" to="/librairies">Droits d'auteur</NavLink></li>
+          </ul>
         </li>
-        <li className="nav-item">
-          <Link className="accordion-header">Biblioteques  <fontawesomeicon icon="{faChevronDown}/" /></Link>
+        
+      <li className="nav-item" >
+       <NavLink className="nav-link" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Facultes
+        </NavLink>
+        <ul class="dropdown-menu ">
+            <li className="nav-item"><NavLink class="dropdown-item" to="#">Faculte de Communication</NavLink></li>
+            <li className="nav-item"><NavLink class="dropdown-item" to="#">Faculte de science Humaines</NavLink></li>
+            <li className="nav-item"><NavLink class="dropdown-item" to="#">Faculte de Droits</NavLink></li>
+            <li className="nav-item"><NavLink class="dropdown-item" to="#">Facultes de Sciences Politiques</NavLink></li>
+            <li className="nav-item"><NavLink class="dropdown-item" to="#">Facultes de l'Education</NavLink></li>
+          </ul>
+      
+      </li>
+      <li className="nav-item" >
+         <NavLink className="nav-link" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Instituts&amp;Centres </NavLink>
+       
+         <ul class=" dropdown-menu">
+            <li className="nav-item"><NavLink class="dropdown-item" to="#">Ecoles de doctorat</NavLink></li>
+            <li className="nav-item"><NavLink class="dropdown-item" to="#">Centres de Formation Humaines</NavLink></li>
+            <li className="nav-item"><NavLink class="dropdown-item" to="#">Voir plus ...</NavLink></li>
+          </ul>
+
+        </li> 
+     
+        <li className="nav-item" >
+         <NavLink className="nav-link " role="button" data-bs-toggle="dropdown" aria-expanded="false" to="#">Nouvelles </NavLink>
+          <ul class="dropdown-menu">
+            <li className="nav-item"><NavLink class="dropdown-item" to="#">Action</NavLink></li>
+            <li className="nav-item"><NavLink class="dropdown-item" to="#">Another action</NavLink></li>
+            <li className="nav-item"><NavLink class="dropdown-item" to="#">Something else here</NavLink></li>
+          </ul>
+        </li>
+        <li className="nav-item" >
+         <NavLink className="nav-link" role="button" data-bs-toggle="dropdown" aria-expanded="false" to="#">Biblioteques</NavLink>
+          <ul class="dropdown-menu">
+            <li className="nav-item"><NavLink class="dropdown-item" to="#">Action</NavLink></li>
+            <li className="nav-item"><NavLink class="dropdown-item" to="#">Another action</NavLink></li>
+            <li className="nav-item"><NavLink class="dropdown-item" to="#">Something else here</NavLink></li>
+          </ul>
+        </li>
+
+        <li className="nav-item" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+         <NavLink className="nav-link" role="button" data-bs-toggle="dropdown" aria-expanded="false" to="#">Recherches et Innovations</NavLink>
+          <ul class="dropdown-menu">
+            <li className="nav-item"><NavLink class="dropdown-item" to="#">Action</NavLink></li>
+            <li className="nav-item"><NavLink class="dropdown-item" to="#">Another action</NavLink></li>
+            <li className="nav-item"><NavLink class="dropdown-item" to="#">Something else here</NavLink></li>
+          </ul>
         </li>
     </ul>
+   
     </div>
   </div>
 </div>
@@ -101,7 +145,7 @@ function Navbar() {
 
 <nav className="navbar navbar-custom navbar-expand-lg px-lg-2 px-sm-0 shadow border " id="nav">
   <div className="container-fluid">
-  <Link className='navbar-brand' to="#"><img src={img2} alt="" className='image1'/>Universite de <strong >Toukra</strong><span className="divider"><img src={img1} alt="the problem is there" /></span></Link>
+ <NavLink className='navbar-brand' to="#"><img src={img2} alt="" className='image1'/>Universite de <strong >Toukra</strong><span className="divider"><img src={img1} alt="the problem is there" /></span></NavLink>
 
     {/* the bouton navbar icon toggle */}
     
@@ -115,26 +159,26 @@ function Navbar() {
   <div className="collapse navbar-collapse justify-content-end d-lg-none" id="navbarSupportedContent">
     <ul className="navbar-nav">
       <li className="nav-item">
-        <Link className="nav-link active" aria-current="page" to="#">Accueil</Link>
+       <NavLink className="nav-link active" aria-current="page" to="#">Accueil</NavLink>
       </li>
       <li className="nav-item">
-        <Link className="nav-link" to="#">Recherche</Link>
+       <NavLink className="nav-link" to="#">Recherche</NavLink>
       </li>
       <li className="nav-item ">
-        <Link className="nav-link" to="#" >
+       <NavLink className="nav-link" to="#" >
           Facultes
-        </Link>
+        </NavLink>
        
       </li>
       <li className="nav-item">
-          <Link className="nav-link" to="#">Instituts&amp;Centres </Link>
+         <NavLink className="nav-link" to="#">Instituts&amp;Centres </NavLink>
          
         </li> 
         <li className="nav-item">
-          <Link className="nav-link" to="#">Nouvelles  </Link>
+         <NavLink className="nav-link" to="#">Nouvelles  </NavLink>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="#">Biblioteques  <fontawesomeicon icon="{faChevronDown}/" /></Link>
+         <NavLink className="nav-link" to="#">Biblioteques  </NavLink>
         </li>
     </ul>
   </div>

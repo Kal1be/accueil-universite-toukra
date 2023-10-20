@@ -13,7 +13,7 @@ import img9 from "../../img/img4/etudiant9.png"
 
 function Slide() {
   return (
-    <div className="container" id="containelement">
+    <div className="container-fluid" id="mycontainelement">
    <h1 className="text-center" id="h1">Parcourez nos listes de cours</h1>
           <p className="text-center " id="p">Jeffrey crikey victoria sponge mush spiffing super arse over tit matie 
             boy smashing. The little rotter off his nut codswallop.!</p>
@@ -22,7 +22,7 @@ function Slide() {
 
   <div class="carousel-inner">
     <div class="carousel-item active shadow">
-     <div className="cards-wrapper">
+     <div className="cards-wrapper" id="card-wrapper">
       <div className="col-lg-4 col-12">
       <div className="card" >
   <img src={img1} className="card-img-top" alt="..." />
@@ -35,7 +35,7 @@ function Slide() {
   <FontAwesomeIcon icon={faStar} className="checked"/>
   <FontAwesomeIcon icon={faStar} className="checked"/>
 </div></div>
-    <p className="card-text">Voici en quelques sortes tous le nos meilleurs formations pour tous les etudiants cela les permet de bien les preparer dans leurs carrieres . </p>
+    <p className="card-text">Voici en quelques sortes tous le nos meilleurs formations pour tous les etudiants cela les permet de bien les preparer dans leurs carrieres et leurs . </p>
     <hr />
     <div className="modifie">
 <span><FontAwesomeIcon icon={faClock} className="bluedifferent"/>Semaines</span>
@@ -55,7 +55,7 @@ function Slide() {
   <FontAwesomeIcon icon={faStar} className="checked"/>
   <FontAwesomeIcon icon={faStar} className="checked"/>
   <FontAwesomeIcon icon={faStar} className="checked"/>
-  <FontAwesomeIcon icon={faStar}/>
+  <FontAwesomeIcon icon={faStar} className="nochecked"/>
 </div></div>
     <p className="card-text">Nous formons les etudiants en sociologie et en philosophie sur le bien de la societe et de notre societe et celui du monde tout entier les aider a decouvrir le meileures.</p>
     <hr />
@@ -78,7 +78,7 @@ function Slide() {
   <FontAwesomeIcon icon={faStar} className="checked"/>
   <FontAwesomeIcon icon={faStar} className="checked"/>
   <FontAwesomeIcon icon={faStar} className="checked"/>
-  <FontAwesomeIcon icon={faStar}/>
+  <FontAwesomeIcon icon={faStar} className="nochecked"/>
 </div></div>
     <p className="card-text">Nous formons les jeunes sur ce domaines de journalisme pour leurs garantir une meilleures avenir sur ce domaines,les preparer sur ce domaine.</p>
     <hr />
@@ -93,7 +93,7 @@ function Slide() {
      </div>
     </div>
     <div class="carousel-item">
-     <div className="cards-wrapper">
+     <div className="cards-wrapper" id="card-wrapper">
      <div className="col-lg-4 col-12">
      
       <div className="card" >
@@ -129,7 +129,7 @@ function Slide() {
   <FontAwesomeIcon icon={faStar} className="checked"/>
   <FontAwesomeIcon icon={faStar} className="checked"/>
   <FontAwesomeIcon icon={faStar} className="checked"/>
-  <FontAwesomeIcon icon={faStar}/>
+  <FontAwesomeIcon icon={faStar} className="nochecked"/>
 </div></div>
     <p className="card-text">Nous formons nos futures geographes sur la meilleures gestion de nos sous sols les preparer a mieux connaitre sur notre pays et celui du monde tout entier</p>
     <hr />
@@ -153,7 +153,7 @@ function Slide() {
   <FontAwesomeIcon icon={faStar} className="checked"/>
   <FontAwesomeIcon icon={faStar} className="checked"/>
   <FontAwesomeIcon icon={faStar} className="checked"/>
-  <FontAwesomeIcon icon={faStar}/>
+  <FontAwesomeIcon icon={faStar} className="nochecked"/>
 </div></div>
     <p className="card-text">Nous formons nos futures geographes sur la meilleures gestion de nos sous sols les preparer a mieux connaitre sur notre pays et celui du monde tout entier</p>
     <hr />
@@ -171,7 +171,7 @@ function Slide() {
 
 
     <div class="carousel-item">
-     <div className="cards-wrapper">
+     <div className="cards-wrapper" id="card-wrapper">
 
      <div className="col-lg-4 col-12">
       <div className="card shadow" >
@@ -183,7 +183,7 @@ function Slide() {
   <FontAwesomeIcon icon={faStar} className="checked"/>
   <FontAwesomeIcon icon={faStar} className="checked"/>
   <FontAwesomeIcon icon={faStar} className="checked"/>
-  <FontAwesomeIcon icon={faStar}/>
+  <FontAwesomeIcon icon={faStar} className="nochecked"/>
 </div></div>
     <p className="card-text">Nous formons nos futures geographes sur la meilleures gestion de nos sous sols les preparer a mieux connaitre sur notre pays et celui du monde tout entier</p>
     <hr />

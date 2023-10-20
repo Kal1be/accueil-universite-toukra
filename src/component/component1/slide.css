@@ -5,6 +5,15 @@
     padding: 20px;
     border-radius: 50%;
 }
+#mycontainelement{
+    padding: 10px 100px;
+}
+#card-wrapper{
+    padding: 20px;
+}
+#card-wrapper div{
+    margin: 1px 4px;
+}
 .bluedifferent{
     color: rgb(57, 150, 250);
     padding: 0 5px;
@@ -34,11 +43,11 @@
     left: -24px;
 }
 #btn1 span{
-    color: rgb(33, 73, 252) !important;
+    color: white !important;
     font-size: 30px;
 }
 #btn2 span{
-    color: rgb(33, 73, 252) !important;
+    color: white !important;
     font-size: 30px;
 }
 .card p{
@@ -118,6 +127,9 @@ margin: 0 8px;
     .checked{
         font-size: 12px;
     }
+    .nochecked{
+        font-size: 12px;
+    }
   
         #container2{
             background-color: whitesmoke !important;
@@ -133,14 +145,23 @@ margin: 0 8px;
             height: 180px;
             transition: height .2s linear;
         }
-       
+        #mycontainelement{
+            padding: 10px 10px;
+            overflow: hidden;
+        }
+        #card-wrapper{
+            padding: 1px;
+        }
+        #card-wrapper div{
+            margin: 1px 0;
+        }
         #btn1{
             position: absolute;
             left: 2px;
             top:-30%;
         }
         #btn1 span{
-            color: rgb(32, 154, 255) !important;
+            color: white !important;
             font-size: 23px;
             /* position: absolute;
             margin: 20px 30px; */
@@ -152,7 +173,7 @@ margin: 0 8px;
             top: -30%;
         }
         #btn2 span{
-            color: rgb(32, 154, 255) !important;
+            color: white !important;
             font-size: 23px;
             /* position: absolute;
             margin: 20px 30px; */

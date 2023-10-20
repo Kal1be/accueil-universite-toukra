@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&family=Roboto:wght@300;400;500&display=swap');
 
 #containerfooter{
     background-color: whitesmoke;
@@ -22,7 +23,7 @@
 }
 #containerfooter ul li{
   font-family: sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   color: gray;
   line-height: 2.4rem;
   transition: color .2s ease;
@@ -31,25 +32,34 @@
 #containerfooter ul li:hover{
   color: rgb(85, 130, 255);
 }
-
+.navbar-brand strong{
+  color: #33a0f8;
+}
+#containerfooter .navbar-brand{
+  font-size: 27px;
+  letter-spacing: -0.00001rem;
+  word-spacing: -0.11rem;
+  font-family: "Oswald",sans-serif;
+ 
+}
 .divide {
     font-size: 30px;
     display: flex;
     align-items: center;
     width: 100px;
-    margin-left: 55px;
+    margin-left: 54px;
     margin-top: -19px;
   }
   .divide img{
-    width: 18px !important;
-    height: 18px !important;
+    width: 18px ;
+    height: 18px;
     object-fit: contain !important;
   }
   
   .divide::before, .divide::after {
     flex: 1;
     content: '';
-    padding: 1px;
+    padding: .4px;
     background-color:rgb(5, 72, 196);
     margin: 5px;
   }
@@ -73,7 +83,7 @@ color: white;
    font-family:sans-serif;
    color: gray;
   }
-
+  
   @media (max-width:800px){
     #containerfooter{
       background-color: whitesmoke;
@@ -84,14 +94,7 @@ color: white;
      padding-right: 2px;
      padding-bottom: 10px;
   }
-  .divide {
-    font-size: 30px;
-    display: flex;
-    align-items: center;
-    width: 100px;
-    margin-left: 45px;
-    margin-top: -19px;
-  }
+ 
   #containerfooter p{
     font-family:sans-serif;
     font-size: 16px;
@@ -99,6 +102,19 @@ color: white;
     line-height: 2.2rem;
     padding:0 16px;
     margin-left: 2px;
+  }
+  .divide {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    width: 100px;
+    margin-left: 51px;
+    margin-top: -19px;
+  }
+  .divide img{
+    width: 15px !important;
+    height: 15px !important;
+    object-fit: contain !important;
   }
   .iconfooter{
     margin: 0 9px;
@@ -135,4 +151,21 @@ color: white;
     font-weight: bold;
     font-size: 17px;
   }
+  #containerfooter .navbar-brand{
+    font-size: 18px;
+    letter-spacing: -0.00001rem;
+    word-spacing: -0.11rem;
+    font-family: "Oswald",sans-serif;
+    margin-left: 10px;
+   
+  }
+  #containerfoote .navbar-brand strong{
+    font-size: 18px;
+    letter-spacing: -0.0009rem;
+  word-spacing: -0.09rem;
+  font-weight: 500;
+  color: #33a0f8;
+  }
+ 
+
   }
