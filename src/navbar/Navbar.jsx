@@ -31,6 +31,7 @@ function Navbar() {
             Recherches
           </Link>
         </li>
+        
       <li className="nav-item ">
         <Link className="nav-link" to="#" >
           Facultes
@@ -52,35 +53,38 @@ function Navbar() {
     </ul>
   </div>
 
-  {/* l'affichage du navbar sur le strong screen */}
+  {/* l'affichage du navbar sur le small screen */}
   <div className="offcanvas offcanvas-end d-lg-none" tabIndex={-1} id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
     <div className="offcanvas-header">
       <h5 className="offcanvas-title" id="offcanvasNavbarLabel">Bienvenue a <strong className='text-primary'>Toukra</strong> !</h5>
       <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" />
     </div>
     <div className="offcanvas-body scroll-auto">
-      <ul className="  navbar-nav justify-content-end flex-grow-1 pe-3">
-        <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" to="#">Accueil</Link>
-        </li>
-        <li className="nav-item ">
-          <Link className="nav-link" to="#">A Propos </Link><span>+</span>
-        </li>
-        <li className="nav-item">
-          <Link className="nav-link  " to="#">
-            Facultes </Link><span>+</span>
+     
+    <ul className="navbar-nav">
+      <li className="nav-item">
+        <Link className="nav-link" aria-current="page" >Accueil</Link>
+      </li>
+      <li className="nav-item">
+        <Link className="accordion-header" >Recherche</Link>
+      </li>
+      <li className="nav-item ">
+        <Link className="accordion-header" >
+          Facultes
+        </Link>
+       
+      </li>
+      <li className="nav-item">
+          <Link className="accordion-header" >Instituts&amp;Centres </Link>
          
-        </li>
-        <li className="nav-item">
-          <Link className="nav-link " to="#">Instituts&amp;Centres  </Link><span>+</span>
         </li> 
         <li className="nav-item">
-          <Link className="nav-link " to="#">Nouvelles  </Link><span>+</span>
+          <Link className="accordion-header" >Nouvelles  </Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link " to="#">Biblioteques </Link><span>+</span>
+          <Link className="accordion-header">Biblioteques  <fontawesomeicon icon="{faChevronDown}/" /></Link>
         </li>
-      </ul>
+    </ul>
     </div>
   </div>
 </div>
@@ -135,37 +139,16 @@ function Navbar() {
     </ul>
   </div>
 
-  {/* l'affichage du navbar sur le strong screen */}
-  <div className="offcanvas offcanvas-end d-lg-none" tabIndex={-1} id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+  {/* l'affichage du navbar sur le small screen */}
+  {/* <div className="offcanvas offcanvas-end d-lg-none" tabIndex={-1} id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
     <div className="offcanvas-header">
       <h5 className="offcanvas-title" id="offcanvasNavbarLabel">Bienvenue !</h5>
       <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" />
     </div>
     <div className="offcanvas-body scroll-auto">
-      <ul className="  navbar-nav justify-content-end flex-grow-1 pe-3">
-        <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" to="#">Accueil</Link>
-        </li>
-        <li className="nav-item ">
-          <Link className="nav-link" to="#">A Propos  </Link><span>+</span>
-        </li>
-        <li className="nav-item dropdown">
-          <Link className="nav-link " >
-            Facultes 
-      <span>+</span>     </Link>
-        </li>
-        <li className="nav-item">
-          <Link className="nav-link" to="#">Instituts&amp;Centres  </Link><span>+</span>
-        </li> 
-        <li className="nav-item">
-          <Link className="nav-link" to="#">Nouvelles  </Link><span>+</span>
-        </li>
-        <li className="nav-item">
-          <Link className="nav-link" to="#">Biblioteques  </Link><span>+</span>
-        </li>
-      </ul>
+     
     </div>
-  </div>
+  </div> */}
 </div>
 
     {/* fin de l'affichage sur le strong screen */}

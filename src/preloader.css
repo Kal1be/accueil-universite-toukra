@@ -23,7 +23,7 @@
 }
 @keyframes loader {
     0%{color:aliceblue}
-    70%{color: #23b2ff;}
+    90%{color: #23b2ff;}
     100%{color: aliceblue;}
 }
 .ching{
@@ -35,7 +35,7 @@
 }
 .ching:nth-child(1){
     border-bottom-width: 6px;
-   border-bottom-color: blue;
+   border-bottom-color: #2049ff;
     animation: animation1 2s linear infinite;
 }
 .ching:nth-child(2){
@@ -73,7 +73,7 @@
 
     .ching:nth-child(1){
         border-bottom-width: 4px;
-       border-bottom-color: blue;
+       border-bottom-color: #2049ff;
         animation: animation1 2s linear infinite;
     }
     .ching:nth-child(2){

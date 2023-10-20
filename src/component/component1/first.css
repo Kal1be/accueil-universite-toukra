@@ -1,0 +1,76 @@
+
+
+#containContainer{
+    background-color:#4190f6;
+    padding: 40px;
+}
+#containContainer h1{
+    font-family: "Gabarito";
+    font-weight: bold;
+    font-size: 54px;
+    color: white;
+}
+#elemento div{
+    background-color:#4190f6;
+    color: white;
+    padding: 20px;
+}
+#elemento div p{
+    font-family: "Roboto";
+    font-size: 22px;
+    text-align: justify;
+}
+
+
+.nour {
+    display: flex;
+}
+.nour p{
+    margin-top: 9px;
+    margin-left: 3px;
+}
+.nour p span{
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+}
+.nour img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: contain;
+    background-color: rgb(245, 244, 244);
+}
+.btnall{
+    margin-top: -20px;
+    position: relative;
+}
+
+@media(max-width:1000px){
+    .btnall{
+        margin-top: -38px;
+        position: relative;
+    }
+    #elemento div p{
+        font-size: 16px;
+        color: white;
+        padding: 0 0;
+    }
+
+    .nour p{
+        margin-top: 2px;
+        margin-left: 3px;
+    }
+    .nour p span{
+        display: block;
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .nour img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: contain;
+        background-color: rgb(245, 244, 244);
+    }
+}

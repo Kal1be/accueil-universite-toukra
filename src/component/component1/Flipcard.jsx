@@ -1,5 +1,9 @@
 import "./flipcard.css"
-import img7 from "../../img/img2/course1school.png"
+import img4 from "../../img/img5/temoin3.webp"
+import img5 from "../../img/img5/temoin4.png"
+import img6 from "../../img/img5/temoin2.jpeg"
+import img7 from "../../img/img5/temoin5.png"
+// import img7 from "../../img/img2/course1school.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faArrowRight,faArrowLeft} from "@fortawesome/free-solid-svg-icons"
 
@@ -15,42 +19,67 @@ function Flipcard() {
     <p>Une universite Internationale et qui fait de l'apprentissage son credo</p>
     <button className="mybtn">Decouvrir l'universite <FontAwesomeIcon icon={faArrowRight}/></button>
   </div>
-  <div className="col-md-6 col-12" id="play">
-<h4 className="text-center text-light">Nos differents formation</h4>
+  <div className="col-md-6 col-12">
+    <h4 className="text-center text-white">Reportages de nos Etudiants</h4>
   <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
-  <div className="carousel-inner">
-    <div className="carousel-item active" data-bs-interval={3000} id="elemento">
-     <div>
-      <h2 className="text-center">100%</h2>
-   <p className="text-center"><span className="text-center text-white">100% De nos contenus pedagogiques <span className="d-block fs-5"> dedier a nos futures etudiants</span></span> </p> 
-     </div>
-    </div>
-
-    <div className="carousel-item" data-bs-interval={3000} id="elemento">
-      <div>
-      <h2 className="text-center">40%</h2>
-   <p className="text-center"><span className="text-center text-white">Nous formons a moitier 40% <span className="d-block fs-5">de la population chaque annee</span></span> </p> 
-     </div>
-    </div>
-
-    <div className="carousel-item" data-bs-interval={3000} id="elemento">
-    <div>
-      <h2 className="text-center">98%</h2>
-   <p className="text-center"><span className="text-center text-white">L'universite de Toukra vous <span className="d-block fs-5">garanti le succes dans son education</span></span> </p> 
-     </div>
-    </div>
+    <div className="carousel-inner">
+      <div className="carousel-item active" data-bs-interval={2000} id="elemento">
+       <div>
+  <p>Salut,je suis Adele Orimadji et je suis etudiante a l'universite de Toukra,j'etudie la communication et mon reve c'est de devenir journaliste de Television.Rejoignez moi et etudions ensemble</p>
+  <div className="nour">
+    <img src={img4} alt="" />
+    <p>Adele Orimadji <span>Etudiante</span></p>
   </div>
-  <div className="btnall">
-  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev" id="bton1">
-  <span classname="text-light">< FontAwesomeIcon icon={faArrowLeft}/></span>
-  </button>
-  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next" id="bton2">
-  <span classname="text-light"> < FontAwesomeIcon icon={faArrowRight}/> </span>
-  </button>
+       </div>
+      </div>
+  
+      <div className="carousel-item" data-bs-interval={2000} id="elemento">
+       <div>
+       <p>Salut,moi ce Etienne Dingamnodji et je suis etudiant a l'universite de Toukra,j'etudie la Philosophie et mon reve c'est de devenir grand philosophe,Rejoignez nous et etudions ensemble.</p>
+  <div  className="nour">
+    <img src={img5} alt="" />
+    <p>Dingamnodji Etienne<span>Etudiant</span></p>
+  </div>
+       </div>
+      </div>
+  
+      <div className="carousel-item" data-bs-interval={2000} id="elemento">
+       <div>
+       <p>Salut,moi ce Koubeube Angele et je suis etudiante a l'universite de Toukra,j'etudie la science sociale et mon reve est de unir les tchadiens,Rejoignez nous et etudions ensemble.</p>
+  <div  className="nour">
+    <img src={img6} alt="" />
+    <p>Koubeube Angele<span>Etudiante</span></p>
+  </div>
+       </div>
+      </div>
+  
+  
+  
+  
+  
+      <div className="carousel-item" id="elemento">
+      <div>
+       <p>Salut je suis Biampambe Marcelin,je suis etudiant a l'universite de Toukra,j'etudie l'Anthropologie et mon reve ce d'etre Anthropologue et Historien,rejoingnez nous et etudions ensemble.</p>
+  <div  className="nour">
+    <img src={img7} alt="" />
+    <p>Bianpambe Marcelin<span>Etudiant</span></p>
+  </div>
+       </div>
+      </div>
+    </div>
+    <div className="btnall">
+    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev" id="bton1">
+    <span classname="text-light">< FontAwesomeIcon icon={faArrowLeft}/></span>
+    </button>
+    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next" id="bton2">
+    <span classname="text-light"> < FontAwesomeIcon icon={faArrowRight}/> </span>
+    </button>
+    </div>
+    
   </div>
   
-</div>
-  </div>
+  
+        </div>
 </div>
 </div>
       </div>

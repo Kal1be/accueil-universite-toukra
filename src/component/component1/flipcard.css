@@ -20,7 +20,9 @@
     text-align: center;
     transition: transform 1.3s;
     transform-style: preserve-3d;
+  
   }
+ 
   
   /* Do an horizontal flip when you move the mouse over the flip box container */
   .flip-card:hover .flip-card-inner {
@@ -34,6 +36,7 @@
     height: 100%;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
+    box-shadow: 0 16px 16px 0 rgb(187, 186, 186) !important;
   }
   
   /* Style the front side (fallback if image is missing) */
@@ -57,7 +60,7 @@
 
   #mycontain{
     background-color:#4190f6;
-   height: 400px;
+   height: 500px;
   padding: 50px 0;
   margin: 10px 0;
   }
@@ -95,8 +98,13 @@ margin-top: -30px;
   }
 
   @media(max-width:800px){
+    .btnall button{
+      font-size: 24px;
+      color: white;
+      margin-top: -30px;
+        }
     #mycontain{
-     height: 500px;
+     height: 650px;
     padding: 20px 0;
     }
     #myrow h3{

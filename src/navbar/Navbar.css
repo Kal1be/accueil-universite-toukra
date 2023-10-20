@@ -234,3 +234,17 @@ align-items: center;
  }
     
   }
+
+
+  /* **********************************8ajout des elements accordion sur les listes des elements menus hamburger*********************** */
+
+
+  .accordion-header::after{
+    content: "\002B";
+    position: absolute;
+    right: 2rem;
+    font-size: 22px;
+  }
+  .accordion-header.active::after{
+    content: "\2212";
+  }

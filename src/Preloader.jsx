@@ -3,6 +3,7 @@ import { Routes,Route } from 'react-router-dom'
 import Home from "./pages/Home"
 import Admission from "./pages/Admission"
 import Navbar from './navbar/Navbar';
+import Footer from "./footer/Footer"
 import "./preloader.css"
 
 function Preloader() {
@@ -29,6 +30,7 @@ function Preloader() {
     <Route path='/' element={<Home/>}/>
     <Route path='/admission' element={<Admission/>} />
   </Routes>
+  <Footer/>
   </>
   )
 }
