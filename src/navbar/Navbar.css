@@ -30,8 +30,8 @@
   .nav-item{
     align-items: center;
     justify-content: center;
-    margin: 0 8px !important;
-   font-weight:500;
+    margin: 0 10px !important;
+   font-weight:800;
    font-size: 17px !important;
    padding: 0 0;
    font-family:"Oswald",sans-serif;
@@ -193,6 +193,7 @@ align-items: center;
       border-bottom: none;
       align-items: center;
     }
+   
     
   .divider {
     font-size: 1px;
@@ -239,4 +240,28 @@ align-items: center;
 
 
   /* **********************************8ajout des elements accordion sur les listes des elements menus hamburger*********************** */
+ .nav-item:hover  .mesmenudropdown{
+  opacity: 1;
+  display: block;
+  position: fixed !important;
+  z-index: 2;
+  top: 15%;
+ }
+ 
+  .mesmenudropdown{
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    display: none;
+    background-color: white;
+    padding: 10px 20px;
+    width: 500px;
+    animation: orimadji .2s  linear;
+    border-top: 3px solid #33a0f8;
+    top: 16%;
+  }
+  @keyframes orimadji {
+    0%{top: 20%;}
+    100%{top: 17%;}
+  }
 

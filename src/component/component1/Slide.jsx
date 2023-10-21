@@ -49,7 +49,7 @@ function Slide() {
       <div className="card" >
   <img src={img2} className="card-img-top" alt="..." />
   <div className="card-body">
-  <div className="modifie"><h5 className="card-title">Sociologie et Philosophie</h5>
+  <div className="modifie"><h5 className="card-title">Sociologie </h5>
     <div>
   <FontAwesomeIcon icon={faStar} className="checked"/>
   <FontAwesomeIcon icon={faStar} className="checked"/>

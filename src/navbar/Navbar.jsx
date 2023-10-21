@@ -31,6 +31,14 @@ function Navbar() {
         <Link class="nav-link" to="/">
             Recherches&amp;Innovations
           </Link>
+          <div className="mesmenudropdown">
+            <ul>
+              <li><a href="">je suis la et toi</a></li>
+              <li><a href="">je suis la et toi</a></li>
+              <li><a href="">je suis la et toi</a></li>
+              <li><a href="">je suis la et toi</a></li>
+            </ul>
+          </div>
         </li>
         
       <li className="nav-item ">

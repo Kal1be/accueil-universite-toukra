@@ -43,12 +43,20 @@
     left: -24px;
 }
 #btn1 span{
-    color: white !important;
-    font-size: 30px;
+        color: white !important;
+        font-size: 30px;
+        background-color:#33a0f8;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
 }
 #btn2 span{
     color: white !important;
     font-size: 30px;
+    background-color:#33a0f8;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
 }
 .card p{
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -163,8 +171,8 @@ margin: 0 8px;
         #btn1 span{
             color: white !important;
             font-size: 23px;
-            /* position: absolute;
-            margin: 20px 30px; */
+            height: 30px;
+        width: 30px;
            
         }
         #btn2{
@@ -173,10 +181,10 @@ margin: 0 8px;
             top: -30%;
         }
         #btn2 span{
-            color: white !important;
+            color: white  !important;
             font-size: 23px;
-            /* position: absolute;
-            margin: 20px 30px; */
+            height: 30px;
+        width: 30px;
         }
         .card p{
             font-size: 16px;
