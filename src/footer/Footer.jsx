@@ -50,11 +50,11 @@ function Footer() {
   <div className="row" id="endfooter">
   <div className="col-md-6 col-12 text-center"><span>Copyright &copy;2023 Universite de Toukra, tous droits reserves.Developpez par DevSoftware Yahoulbo</span></div>
   <div className="col-md-6 col-12 d-flex fs-2 justify-content-center">
-    <FontAwesomeIcon icon={faFacebook} className="iconfooter"/>
-    <FontAwesomeIcon icon={faWhatsapp} className="iconfooter"/>
-    <FontAwesomeIcon icon={faLinkedin} className="iconfooter"/>
-    <FontAwesomeIcon icon={faInstagram} className="iconfooter"/>
-    <FontAwesomeIcon icon={faTwitter} className="iconfooter"/>
+    <FontAwesomeIcon icon={faFacebook} className="iconfooterfacebook"/>
+    <FontAwesomeIcon icon={faWhatsapp} className="iconfooterwhatsapp"/>
+    <FontAwesomeIcon icon={faLinkedin} className="iconfooterlinke"/>
+    <FontAwesomeIcon icon={faInstagram} className="iconfooterinta"/>
+    <FontAwesomeIcon icon={faTwitter} className="iconfooterfacebook"/>
   </div>
   </div>
   </div>

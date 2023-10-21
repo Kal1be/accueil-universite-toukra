@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&family=Raleway&family=Roboto:wght@300;400;500&display=swap');
+
+
 /* ****************** le caroussel et son affichage sur le telephone********************************8 */
 .carousel-item img{
     height: 700px;
     object-fit: cover;
 }
+
 
 #carouselExampleAutoplaying .carousel-item:before {
     content: '';
@@ -55,7 +59,7 @@
   #carousel-caption h3{
     font-family:'Times New Roman', Times, serif;
     padding: 0%;
-    font-size: 40px;
+    font-size: 60px;
     overflow: hidden;
     font-weight: bold;
   }

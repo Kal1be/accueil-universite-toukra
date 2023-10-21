@@ -29,7 +29,7 @@ function Navbar() {
       </li>
       <li class="nav-item">
         <Link class="nav-link" to="/">
-            Recherches
+            Recherches&amp;Innovations
           </Link>
         </li>
         
@@ -67,7 +67,7 @@ function Navbar() {
       </li>
       <li class="nav-item" role="button" data-bs-toggle="dropdown" aria-expanded="false">
         <Link class="nav-link " >
-            Recherches
+        Recherches&amp;Innovations
           </Link>
           <ul class="dropdown-menu">
             <li className='nav-item'><Link class="dropdown-item" to="/accueil">Admission et nouvelles</Link></li>
@@ -162,7 +162,7 @@ function Navbar() {
       <Link className="nav-link active" aria-current="page" to="#">Accueil</Link>
       </li>
       <li className="nav-item">
-      <Link className="nav-link" to="#">Recherche</Link>
+      <Link className="nav-link" to="#"> Recherches&amp;Innovations</Link>
       </li>
       <li className="nav-item ">
       <Link className="nav-link" to="#" >

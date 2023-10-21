@@ -1,77 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&family=Roboto:wght@300;400;500&display=swap');
 
 
-#containContainer{
-    background-color:#4190f6;
-    padding: 40px;
+#footercontainer{
+    padding: 10px 60px;
 }
-#containContainer h1{
-    font-family: "Gabarito";
-    font-weight: bold;
-    font-size: 54px;
-    color: white;
+#footercontainer h2{
+    font-size: 24px;
 }
-#elemento div{
-    background-color:#33a0f8;
-    color: white;
-    padding: 20px;
+#footercontainer h1{
+   font-size: 50px;
+   font-family: "Oswald",sans-serif;
+   font-weight: bold;
 }
-#elemento div p{
-    font-family: "Roboto";
+
+#footercontainer p{
+    font-family: "Roboto",sans-serif;
     font-size: 22px;
-    text-align: justify;
-    color: white;
-}
+  }
+  .afterdelta {
+    background-color: whitesmoke;
+    height: 100px;
+    padding: 5px 10px;
+    width: 80px;
+    margin: 0 10px;
+  }
+  .afterdelta p:nth-child(1){
+    align-items: center;
+  }
+  .afterdelta p:nth-child(2){
+    width: 80px;
+    padding: 0 10px;
+   margin-left: -10px;
+   text-align: center;
+   font-weight: 900;
+   background-color: #33a0f8 !important;
+   color: white;
+  }
+  .openp p{
+    font-size: 18px !important;
+  }
 
+  .openp a{
+    color: black;
+    font-size: 22px;
+  }
+  .openicon{
+    font-size: 15px;
+    margin-left: 7px;
+  }
 
-.nour {
-    display: flex;
-}
-.nour p{
-    margin-top: 9px;
-    margin-left: 3px;
-}
-.nour p span{
-    display: block;
-    font-size: 16px;
-    font-weight: 300;
-}
-.nour img{
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    object-fit: contain;
-    background-color: rgb(245, 244, 244);
-}
-.btnall{
-    margin-top: -20px;
-    position: relative;
-}
-
-@media(max-width:1000px){
-    .btnall{
-        margin-top: -38px;
-        position: relative;
+  @media(max-width:950px){
+    #footercontainer{
+        padding: 10px 7px;
     }
-    #elemento div p{
+    #footercontainer h2{
+        font-size: 19px;
+    }
+    #footercontainer h1{
+       font-size: 25px;
+       font-family: "Oswald",sans-serif;
+       font-weight: bold;
+    }
+    
+    #footercontainer p{
+        font-family: "Roboto",sans-serif;
+        font-size: 18px;
+      }
+      .afterdelta {
+        background-color: whitesmoke;
+        height: 80px;
+        padding: 5px 10px;
+        width: 60px;
+        margin: 0 10px;
+      }
+      .afterdelta p:nth-child(1){
+        align-items: center;
+      }
+      .afterdelta p:nth-child(2){
+        width: 60px;
+        padding: 0 10px;
+       margin-left: -10px;
+       text-align: center;
+       font-weight: 900;
+       background-color: #33a0f8 !important;
+       color: white;
+      }
+      .openp p{
+        font-size: 16px !important;
+        color: gray;
+      }
+    
+      .openp a{
+        color: black;
         font-size: 16px;
-        color: white;
-        padding: 0 0;
-    }
-
-    .nour p{
-        margin-top: 2px;
-        margin-left: 3px;
-    }
-    .nour p span{
-        display: block;
-        font-size: 15px;
-        font-weight: 300;
-    }
-    .nour img{
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        object-fit: contain;
-        background-color: rgb(245, 244, 244);
-    }
-}
+        margin-top: -10px;
+       float: right;
+       margin-right: 30px;
+      }
+      .openicon{
+        font-size: 12px;
+        margin-left: 7px;
+      }
+  }

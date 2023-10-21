@@ -16,7 +16,7 @@ function Home() {
     <Center/>
     <Slide/>
     <Secondone/>
-    {/* <First/> */}
+    <First/>
     </div>
   )
 }

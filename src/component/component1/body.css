@@ -5,7 +5,7 @@
 margin-bottom: 4px;
 }
 #container{
-  padding: 10px 10px;
+  padding: 10px 20px;
   /* overflow-x: hidden; */
 }
 #row div{
@@ -28,7 +28,7 @@ margin-bottom: 4px;
 
 form h3{
     font-family: "Roboto",sans-serif;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 600;
     color: #3c3c3c;
 }
@@ -41,6 +41,15 @@ form{
     /* margin-left: -70px; */
     width:430px;
     overflow-x:visible;
+}
+#textererea{
+    margin: 10px 0;
+}
+#texterea{
+    width: 100%;
+    border-radius: 15px;
+    padding: 8px 10px;
+    font-size: 18px;
 }
 @media(max-width:1500px){
 form{
@@ -74,6 +83,8 @@ form{
 }
 form button{
     width: 100%;
+    background-color:#33a0f8 !important ;
+    color: white !important;
 
 }
 .form-check{

@@ -12,7 +12,7 @@ const SecondOne=()=>{
       <>
       <div className="container-fluid bg-white" id="containelement">
         <div className="container">
-          <h1 className="text-center" id="h1">Nos Evenements a venir</h1>
+          <h1 className="text-center" id="h1">Les Evenements </h1>
           <p className="text-center " id="p">Jeffrey crikey victoria sponge mush spiffing super arse over tit matie 
             boy smashing. The little rotter off his nut codswallop.!</p>
           <div className="row shadow" id="contenuimg">
@@ -27,7 +27,9 @@ const SecondOne=()=>{
               <span>  <FontAwesomeIcon icon={faLocation} className="colorblue"/>Maison de la Femme</span>
               </div>
               <p id="p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis repellendus quasi
-               culpa officia esse quia dicta fugiat, natus facere laboriosam ipsam sit aliquam.</p>
+               culpa officia esse quia dicta fugiat, natus facere laboriosam ipsam sit aliquam.
+               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium fugit explicabo
+                asperiores ut est magnam iste neque corrupti enim minus.</p>
             </div>
           </div>
           <div className="row shadow" id="contenuimg">
@@ -42,7 +44,9 @@ const SecondOne=()=>{
               <span>  <FontAwesomeIcon icon={faLocation} className="colorblue"/>12 Avenue de Gaulle</span>
               </div>
               <p id="p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis repellendus quasi
-               culpa officia esse quia dicta fugiat, natus facere laboriosam ipsam sit aliquam.</p>
+               culpa officia esse quia dicta fugiat, natus facere laboriosam ipsam sit aliquam.
+               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium fugit explicabo
+                asperiores ut est magnam iste neque corrupti enim minus.</p>
             </div>
           </div>
           <div className="row shadow" id="contenuimg">
@@ -57,7 +61,10 @@ const SecondOne=()=>{
               <span>  <FontAwesomeIcon icon={faLocation} className="colorblue"/>12 Avenue Bokassa</span>
               </div>
               <p id="p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis repellendus quasi
-               culpa officia esse quia dicta fugiat, natus facere laboriosam ipsam sit aliquam.</p>
+               culpa officia esse quia dicta fugiat, natus facere laboriosam ipsam sit aliquam.
+               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium fugit explicabo
+                asperiores ut est magnam iste neque corrupti enim minus.
+               </p>
             </div>
           </div>
         </div>

@@ -3,79 +3,52 @@ import img5 from "../../img/img5/temoin4.png"
 import img6 from "../../img/img5/temoin2.jpeg"
 import img7 from "../../img/img5/temoin5.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faArrowLeft,faArrowRight } from "@fortawesome/free-solid-svg-icons"
+import {faChevronRight } from "@fortawesome/free-solid-svg-icons"
 import "./first.css"
 
 export function First(){
     return(
-      
-      <div className="container-fluid" id="containContainer">
-      <div className="row">
-        <div className="col-md-5 col-12">
-          <h1>Reportage de certain de nos etudiants</h1>
-          
-        </div>
-        <div className="col-md-6 col-12">
-  <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
-    <div className="carousel-inner">
-      <div className="carousel-item active" data-bs-interval={2000} id="elemento">
-       <div>
-  <p>Salut,je suis Adele Orimadji et je suis etudiante a l'universite de Toukra,j'etudie la communication et mon reve c'est de devenir journaliste de Television.Rejoignez moi et etudions ensemble</p>
-  <div className="nour">
-    <img src={img4} alt="" />
-    <p>Adele Orimadji <span>Etudiante</span></p>
-  </div>
-       </div>
-      </div>
-  
-      <div className="carousel-item" data-bs-interval={2000} id="elemento">
-       <div>
-       <p>Salut,moi ce Etienne Dingamnodji et je suis etudiant a l'universite de Toukra,j'etudie la Philosophie et mon reve c'est de devenir grand philosophe,Rejoignez nous et etudions ensemble.</p>
-  <div  className="nour">
-    <img src={img5} alt="" />
-    <p>Dingamnodji Etienne<span>Etudiant</span></p>
-  </div>
-       </div>
-      </div>
-  
-      <div className="carousel-item" data-bs-interval={2000} id="elemento">
-       <div>
-       <p>Salut,moi ce Koubeube Angele et je suis etudiante a l'universite de Toukra,j'etudie la science sociale et mon reve est de permettre la cohabitation entre les tchadiens,Rejoignez nous et etudions ensemble.</p>
-  <div  className="nour">
-    <img src={img6} alt="" />
-    <p>Koubeube Angele<span>Etudiante</span></p>
-  </div>
-       </div>
-      </div>
-  
-  
-  
-  
-  
-      <div className="carousel-item" id="elemento">
-      <div>
-       <p>Salut je suis Biampambe Marcelin,je suis etudiant a l'universite de Toukra,j'etudie l'Anthropologie et mon reve ce d'etre Anthropologue et Historien,rejoingnez nous et etudions ensemble.</p>
-  <div  className="nour">
-    <img src={img7} alt="" />
-    <p>Bianpambe Marcelin<span>Etudiant</span></p>
-  </div>
-       </div>
-      </div>
+      <div className="container-fluid" id="footercontainer">
+        <h1 className="text-center">Les Evenements a venir</h1>
+        <p className="text-center">Suivez nos listes des elements a venir sur la mise a jour et du futures de l'universite de Toukra</p>
+   <div className="row">
+    <div className="col-lg-3 col-md-6 col-12 d-flex my-md-2">
+     <div className="afterdelta">
+      <p className="text-center">12</p>
+       <p className="border bg-primary py-2">Dec</p>
+     </div>
+     <div className="openp"><h2>Nouvelle mise a jour du site </h2>
+     <p>Voir plus a propos du nouvelle mise a jour du site et voir les systemes qui seront implementer.</p>
+      <a href="" className="btn btn-link">lire la suite<FontAwesomeIcon icon={faChevronRight} className="openicon"/></a></div>
     </div>
-    <div className="btnall">
-    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev" id="bton1">
-    <span classname="text-light">< FontAwesomeIcon icon={faArrowLeft}/></span>
-    </button>
-    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next" id="bton2">
-    <span classname="text-light"> < FontAwesomeIcon icon={faArrowRight}/> </span>
-    </button>
+    <div className="col-lg-3 col-md-6 col-12 d-flex my-md-2">
+     <div className="afterdelta ">
+      <p className="text-center">03</p>
+       <p className="border bg-primary py-2">Mars</p>
+     </div>
+     <div className="openp"><h2>Rencontre entre les dirigeants de l'universite</h2>
+     <p>Une rencontre entre les dirigeants de l'universite est prevu pour mars 2024 avec le president de l'universite.</p>
+      <a href="" className="btn btn-link">lire la suite<FontAwesomeIcon icon={faChevronRight} className="openicon"/></a></div>
     </div>
-    
-  </div>
-  
-  
-        </div>
-      </div>
+    <div className="col-lg-3 col-md-6 col-12 d-flex my-md-2">
+     <div className="afterdelta ">
+      <p className="text-center">18</p>
+       <p className="border bg-primary py-2">Nov</p>
+     </div>
+     <div className="openp"><h2>Implementation des depots en ligne</h2>
+     <p>Une nouvelle ere est lancer a Ndjamena la capitale selon les depots en ligne a l'universite de Toukra.</p>
+      <a href="" className="btn btn-link">Savoir plus<FontAwesomeIcon icon={faChevronRight}className="openicon"/></a></div>
+    </div>
+    <div className="col-lg-3 col-md-6 col-12 d-flex my-md-2">
+     <div className="afterdelta ">
+      <p className="text-center f-900">02</p>
+       <p className="border bg-primary py-2">Juin</p>
+     </div>
+     <div className="openp"><h2>Examen dans tous les departements</h2>
+     <p>Une nouvelle est annoncer ce matin selon les media que tous les examens universitaires commencerons en juin et pour mettre fin a l'annee.</p>
+      <a href="" className="btn btn-link">Suivre<FontAwesomeIcon icon={faChevronRight} className="openicon"/></a></div>
+    </div>
+   </div>
       </div>
     )
   }

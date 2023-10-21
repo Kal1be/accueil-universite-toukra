@@ -1,16 +1,38 @@
-import React from 'react'
 import img4 from "../../img/img2/book1.jpeg"
 import img5 from "../../img/img2/userlaptop.jpeg"
 import img6 from "../../img/img2/cap.png"
 import img7 from "../../img/img2/course1school.png"
+import React,{useState} from "react"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faPaperPlane } from "@fortawesome/free-solid-svg-icons"
 
 import "./body.css"
 
 function Body() {
+  const [formState,setFormState] = useState({})
+  const handlechange =(event)=>{
+    setFormState({...formState,[event.target.name]:event.target.value})
+  }
+  
+  const submithandler=(even)=>{
+    even.preventDefault()
+    const config ={
+      SecureToken:"22c031b6-3021-42da-8ec8-739d5f9c047f",
+       To:"universitetoukra@yopmail.com",
+       From:formState.email,
+       Subject:"Universite de Toukra",
+       Body:`le nom d'utilisateur est :${formState.name} et son message est ${formState.textarea}`
+     }
+    if(window.Email){
+      window.Email.send(config).then(()=>{
+        alert("email send succesfully")
+      })
+    }
+  }
   return (
     <div className='container-fluid' id='container'>
       <div className="row row-cols-lg-2 row-cols-1">
-        <div className="col-lg-9 col-md-12 col-12">
+        <div className="col-lg-8 col-md-12 col-12">
             <div className="row" id='row'>
                 <div className="col-sm-6 col-12">
                   <img hre src={img4} alt="l'icon ne peut"/>
@@ -41,42 +63,24 @@ La vie universitaire</h4>
                 </div>
             </div>
         </div>
-        <div className="col-lg-3 col-12">
+        <div className="col-lg-4 col-12">
 
-<form className='border shadow p-4'>
-  <h3>Pour s'inscrire Suivez ses instructions</h3>
+<form className='border shadow p-4' onSubmit={submithandler}>
+  <h3>Nous ecrire et avoir des informations a propos de nos differents programmes</h3>
   <div class="mb-lg-2  mb-1">
     <label for="exampleInputEmail1" class="form-label">Nom et Prenom</label>
-    <input type="text" class="form-control" aria-describedby="emailHelp" id='input'/>
+    <input type="text" class="form-control" aria-describedby="emailHelp" id='input' name="name" value={formState.name || ""}  onChange={handlechange}/>
   </div>
   <div class="mb-lg-2  mb-1">
     <label for="exampleInputPassword1" class="form-label">Email</label>
-    <input type="email" class="form-control"  id='input'/>
+    <input type="email" class="form-control"  id='input' name="email" value={formState.email || ""} onChange={handlechange}/>
   </div>
-  <div class="mb-lg-2  mb-1">
-    <label for="exampleInputPassword1" class="form-label">Telephone</label>
-    <input type="text" class="form-control"  id='input'/>
+  
+ <div class="mb-lg-2  mb-1" id="textererea">
+    <label for="exampleInputPassword1" class="form-label">Votre message ici</label>
+  <textarea name="textarea" id="texterea" className="form-control" cols="30" rows="5" placeholder="entrer votre message ici ..." value={formState.textarea} onChange={handlechange}></textarea>
   </div>
-  <div className="mb-lg-3  mb-3">
-    <label htmlFor="" class="form-label">Selectionner un cours</label>
-  <select class="form-select" aria-label="Default select example"  id='input'>
-        <option selected>Cours</option>
-         <option value="1">Histoire</option>
-          <option value="2">Geographie</option>
-          <option value="3">Arabe</option>
-          <option value="4">Communication</option>
-          <option value="5">Anthropologie</option>
-          <option value="6">Philosophie</option>
-          <option value="7">Sociologie</option>
-          <option value="8">Sciences Juridique</option>
-          <option value="9">Sciences Humaines</option>
-          </select>
-  </div>
-  <div class="mb-lg-2 mt-lg-2 mt-2 mb-2 form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1"/>
-    <label class="form-check-label" for="exampleCheck1">Accepter et continuer</label>
-  </div>
-  <button type="submit" class="btn btn-primary mt-2">Postuler</button>
+  <button type="submit" class="btn  mt-2">Envoyer <FontAwesomeIcon icon={faPaperPlane} className="mx-2"/></button>
 </form>
         </div>
       </div>
