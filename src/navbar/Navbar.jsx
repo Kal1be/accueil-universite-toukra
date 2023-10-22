@@ -29,15 +29,17 @@ function Navbar() {
       </li>
       <li class="nav-item">
         <Link class="nav-link" to="/">
-            Recherches&amp;Innovations
+            Recherches
           </Link>
           <div className="mesmenudropdown">
-            <ul>
-              <li><a href="">je suis la et toi</a></li>
-              <li><a href="">je suis la et toi</a></li>
-              <li><a href="">je suis la et toi</a></li>
-              <li><a href="">je suis la et toi</a></li>
-            </ul>
+          <ul>
+            <li><a href="">Admission et Nouvelles</a></li>
+            <li><a href="">Politique de Confidentialites</a></li>
+            <li><a href="">Librairies de l'universite</a></li>
+            <li><a href="">Services Disponible</a></li>
+            <li><a href="">Ecoles Doctorales</a></li>
+            <li><a href="">Ecoles Normales superieur</a></li>
+          </ul>
           </div>
         </li>
         
@@ -45,6 +47,40 @@ function Navbar() {
       <Link className="nav-link" to="#" >
           Facultes
         </Link>
+        <div className="mesmenudropdown">
+           <div className="row" id='rowmenu'>
+           <div className="col-4">
+              <h4>Faculte</h4>
+             <ul>
+              <li><a href="">Facultes de Sciences juridiques</a></li>
+              <li><a href="">Facultes des sciences Humaines</a></li>
+              <li><a href="">Facultes des Communications</a></li>
+              <li><a href="">Facultes des Sciences Politiques</a></li>
+              <li><a href="">Facultes des Sciences de l'Education</a></li>
+             </ul>
+           </div>
+           <div className="col-4">
+            <h4>Departement</h4>
+            <ul>
+             <li><a href="">Departement de Francais</a></li>
+             <li><a href="">Departement de sociologie</a></li>
+             <li><a href="">Departement d'Anthropologie</a></li>
+             <li><a href="">Departement de Communication</a></li>
+             <li><a href="">Departement de Geographie</a></li>
+             <li><a href="">Departement d'Histoire</a></li>
+            </ul>
+           </div>
+           <div className="col-4">
+            <h4>Direction</h4>
+            <ul>
+              <li><a href="">Special Bulletin</a></li>
+              <li><a href="">Brochures et Document</a></li>
+              <li><a href="">Services</a></li>
+              <li><a href="">Droits d'auteur</a></li>
+            </ul>
+           </div>
+           </div>
+          </div>
       
       </li>
       <li className="nav-item">
@@ -87,7 +123,7 @@ function Navbar() {
         </li>
         
       <li className="nav-item" >
-      <Link className="nav-link"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <Link className="nav-link "  role="button" data-bs-toggle="dropdown" aria-expanded="false">
           Facultes
         </Link>
         <ul class="dropdown-menu ">

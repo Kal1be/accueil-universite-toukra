@@ -26,17 +26,7 @@
   } 
 
   /* ****************************************the navbar brand**************************************************************** */
- 
-  .nav-item{
-    align-items: center;
-    justify-content: center;
-    margin: 0 10px !important;
-   font-weight:800;
-   font-size: 17px !important;
-   padding: 0 0;
-   font-family:"Oswald",sans-serif;
-  }
-  
+
   .navbar-brand img{
     /* width: px; */
     height: 54px;
@@ -231,6 +221,11 @@ align-items: center;
     position: absolute;
     right:2rem;
   }
+  .nav-link.show::after{
+    content: "\2212";
+    position: absolute;
+    right:2rem;
+  }
 
   .dropdown-menu{
     border:none !important;
@@ -240,12 +235,21 @@ align-items: center;
 
 
   /* **********************************8ajout des elements accordion sur les listes des elements menus hamburger*********************** */
+   
+  .nav-item{
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px !important;
+   font-weight:800;
+   font-size: 17px !important;
+   padding: 0 0;
+   font-family:"Oswald",sans-serif;
+  }
+  
  .nav-item:hover  .mesmenudropdown{
   opacity: 1;
   display: block;
-  position: fixed !important;
   z-index: 2;
-  top: 15%;
  }
  
   .mesmenudropdown{
@@ -254,14 +258,43 @@ align-items: center;
     opacity: 0;
     display: none;
     background-color: white;
-    padding: 10px 20px;
-    width: 500px;
-    animation: orimadji .2s  linear;
-    border-top: 3px solid #33a0f8;
-    top: 16%;
+    padding: 20px 60px;
+    animation: orimadji .3s  linear;
+    border-top: 5px solid #33a0f8;
+    top: 100%;
+    right: 17%;
+  }
+  .mesmenudropdown h4{
+    color:#33a0f8 ;
+    font-size: 20px;
+  }
+  .mesmenudropdown ul{
+   position: relative;
+ margin-left: -30px;
+  }
+  .mesmenudropdown ul li{
+    margin: 10px 0;
+    font-weight: 300;
+    font-family: "Roboto",sans-serif;
+  }
+  .mesmenudropdown ul li:hover{
+    border-bottom: 1px solid gainsboro;
+  }
+  .mesmenudropdown ul li a{
+    text-decoration: none;
+    color: #333;
+  }
+  #rowmenu{
+   margin: 10px;
+   width: 900px;
+   position: relative;
   }
   @keyframes orimadji {
-    0%{top: 20%;}
-    100%{top: 17%;}
+    0%{
+      top: 120%;
+    }
+    100%{
+      top: 100%;
+    }
   }
 

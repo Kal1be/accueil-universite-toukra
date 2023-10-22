@@ -57,7 +57,7 @@ function Slide() {
   <FontAwesomeIcon icon={faStar} className="checked"/>
   <FontAwesomeIcon icon={faStar} className="nochecked"/>
 </div></div>
-    <p className="card-text">Nous formons les etudiants en sociologie et en philosophie sur le bien de la societe et de notre societe et celui du monde tout entier les aider a decouvrir le meileures.</p>
+<p className="card-text">Voici en quelques sortes tous le nos meilleurs formations pour tous les etudiants cela les permet de bien les preparer dans leurs carrieres et leurs . </p>
     <hr />
     <div className="modifie">
 <span><FontAwesomeIcon icon={faClock} className="bluedifferent"/>Semaines</span>
