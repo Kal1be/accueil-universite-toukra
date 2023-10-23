@@ -2,13 +2,14 @@
 
 
 #footercontainer{
-    padding: 10px 30px;
+    padding: 10px 20px;
 }
 #footercontainer h2{
-    font-size: 20px;
+    font-size: 17px;
+    font-weight: 700;
 }
 #footercontainer h1{
-   font-size: 50px;
+   font-size: 45px;
    font-family: "Oswald",sans-serif;
    font-weight: bold;
 }
@@ -19,30 +20,32 @@
   }
   .afterdelta {
     background-color: whitesmoke;
-    height: 100px;
+    height: 70px;
     padding: 5px 10px;
-    width: 60px;
+    width: 50px;
     margin: 0 10px;
   }
   .afterdelta p:nth-child(1){
     align-items: center;
+    font-size: 15px !important;
   }
   .afterdelta p:nth-child(2){
-    width: 60px;
+    width: 50px;
     padding: 0 10px;
    margin-left: -10px;
    text-align: center;
    font-weight: 900;
    background-color: #33a0f8 !important;
    color: white;
+   font-size: 15px !important;
   }
   .openp p{
-    font-size: 16px !important;
+    font-size: 14px !important;
   }
 
   .openp a{
     color: black;
-    font-size: 17px;
+    font-size: 15px;
   }
   .openicon{
     font-size: 13px;

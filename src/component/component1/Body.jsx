@@ -78,7 +78,7 @@ La vie universitaire</h4>
   
  <div class="mb-lg-2  mb-1" id="textererea">
     <label for="exampleInputPassword1" class="form-label">Votre message ici</label>
-  <textarea name="textarea" id="texterea" className="form-control" cols="30" rows="5" placeholder="entrer votre message ici ..." value={formState.textarea} onChange={handlechange}></textarea>
+  <textarea name="textarea" id="texterea" className="form-control" cols="30" rows="6" placeholder="entrer votre message ici ..." value={formState.textarea} onChange={handlechange}></textarea>
   </div>
   <button type="submit" class="btn  mt-2">Envoyer <FontAwesomeIcon icon={faPaperPlane} className="mx-2"/></button>
 </form>
