@@ -33,12 +33,12 @@ function Navbar() {
           </Link>
           <div className="mesmenudropdown">
           <ul>
-            <li><a href="">Admission et Nouvelles</a></li>
-            <li><a href="">Politique de Confidentialites</a></li>
-            <li><a href="">Librairies de l'universite</a></li>
-            <li><a href="">Services Disponible</a></li>
-            <li><a href="">Ecoles Doctorales</a></li>
-            <li><a href="">Ecoles Normales superieur</a></li>
+            <li><Link to="/admission">Admission et Nouvelles</Link></li>
+            <li><Link to="#">Politique de Confidentialites</Link></li>
+            <li><Link to="#">Librairies de l'universite</Link></li>
+            <li><Link to="#">Services Disponible</Link></li>
+            <li><Link to="#">Ecoles Doctorales</Link></li>
+            <li><Link to="#">Ecoles Normales superieur</Link></li>
           </ul>
           </div>
         </li>
@@ -52,31 +52,31 @@ function Navbar() {
            <div className="col-4">
               <h4>Faculte</h4>
              <ul>
-              <li><a href="">Facultes de Sciences juridiques</a></li>
-              <li><a href="">Facultes des sciences Humaines</a></li>
-              <li><a href="">Facultes des Communications</a></li>
-              <li><a href="">Facultes des Sciences Politiques</a></li>
-              <li><a href="">Facultes des Sciences de l'Education</a></li>
+              <li><Link to="/faculte/juridique">Facultes de Sciences juridiques</Link></li>
+              <li><Link to="/faculte/humaine">Facultes des sciences Humaines</Link></li>
+              <li><Link to="/faculte/communicattion">Facultes des Communications</Link></li>
+              <li><Link to="/faculte/politique">Facultes des Sciences Politiques</Link></li>
+              <li><Link to="/faculte/education">Facultes des Sciences de l'Education</Link></li>
              </ul>
            </div>
            <div className="col-4">
             <h4>Departement</h4>
             <ul>
-             <li><a href="">Departement de Francais</a></li>
-             <li><a href="">Departement de sociologie</a></li>
-             <li><a href="">Departement d'Anthropologie</a></li>
-             <li><a href="">Departement de Communication</a></li>
-             <li><a href="">Departement de Geographie</a></li>
-             <li><a href="">Departement d'Histoire</a></li>
+             <li><Link to="/departement/francais">Departement de Francais</Link></li>
+             <li><Link to="/departement/sociologie">Departement de sociologie</Link></li>
+             <li><Link to="/departement/anthropologie">Departement d'Anthropologie</Link></li>
+             <li><Link to="/departement/communication">Departement de Communication</Link></li>
+             <li><Link to="/departement/geographie">Departement de Geographie</Link></li>
+             <li><Link to="/departement/histoire">Departement d'Histoire</Link></li>
             </ul>
            </div>
            <div className="col-4">
             <h4>Direction</h4>
             <ul>
-              <li><a href="">Special Bulletin</a></li>
-              <li><a href="">Brochures et Document</a></li>
-              <li><a href="">Services</a></li>
-              <li><a href="">Droits d'auteur</a></li>
+              <li><Link to="#">Special Bulletin</Link></li>
+              <li><Link to="#">Brochures et Document</Link></li>
+              <li><Link to="#">Services</Link></li>
+              <li><Link to="/president/mot">Droits d'auteur</Link></li>
             </ul>
            </div>
            </div>
@@ -109,15 +109,15 @@ function Navbar() {
       <li className="nav-item">
       <Link className="nav-link " aria-current="page" to="/">Accueil</Link>
       </li>
-      <li class="nav-item" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-        <Link class="nav-link " >
-        Recherches&amp;Innovations
+      <li class="nav-item">
+        <Link class="nav-link "  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Recherches
           </Link>
           <ul class="dropdown-menu">
             <li className='nav-item'><Link class="dropdown-item" to="/accueil">Admission et nouvelles</Link></li>
             <li className="nav-item"><Link class="dropdown-item" to="/politiques">Politiques de Confidentialites</Link></li>
             <li className="nav-item"><Link class="dropdown-item" to="/librairies">Librairies</Link></li>
-            <li className="nav-item"><Link class="dropdown-item" to="/politiques">Ecoles Doctorales</Link></li>
+            <li className="nav-item"><Link class="dropdown-item" to="/politiques/ecoles">Ecoles Doctorales</Link></li>
             <li className="nav-item"><Link class="dropdown-item" to="/librairies">Droits d'auteur</Link></li>
           </ul>
         </li>
@@ -127,11 +127,11 @@ function Navbar() {
           Facultes
         </Link>
         <ul class="dropdown-menu ">
-            <li className="nav-item"><Link class="dropdown-item" to="#">Faculte de Communication</Link></li>
-            <li className="nav-item"><Link class="dropdown-item" to="#">Faculte de science Humaines</Link></li>
-            <li className="nav-item"><Link class="dropdown-item" to="#">Faculte de Droits</Link></li>
-            <li className="nav-item"><Link class="dropdown-item" to="#">Facultes de Sciences Politiques</Link></li>
-            <li className="nav-item"><Link class="dropdown-item" to="#">Facultes de l'Education</Link></li>
+            <li className="nav-item"><Link class="dropdown-item" to="/faculte/communication">Faculte de Communication</Link></li>
+            <li className="nav-item"><Link class="dropdown-item" to="faculte/humaine">Faculte de science Humaines</Link></li>
+            <li className="nav-item"><Link class="dropdown-item" to="faculte/droits">Faculte de Droits</Link></li>
+            <li className="nav-item"><Link class="dropdown-item" to="faculte/politiques">Facultes de Sciences Politiques</Link></li>
+            <li className="nav-item"><Link class="dropdown-item" to="/faculte/education">Facultes de l'Education</Link></li>
           </ul>
       
       </li>
@@ -139,9 +139,10 @@ function Navbar() {
         <Link className="nav-link" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Instituts&amp;Centres </Link>
        
          <ul class=" dropdown-menu">
-            <li className="nav-item"><Link class="dropdown-item" to="#">Ecoles de doctorat</Link></li>
-            <li className="nav-item"><Link class="dropdown-item" to="#">Centres de Formation Humaines</Link></li>
-            <li className="nav-item"><Link class="dropdown-item" to="#">Voir plus ...</Link></li>
+            <li className="nav-item"><Link class="dropdown-item" to="/politiques/ecoles">Ecoles de doctorat</Link></li>
+            <li className="nav-item"><Link class="dropdown-item" to="/formation/toukra">Centres de Formation Humaines</Link></li>
+            <li className="nav-item"><Link class="dropdown-item" to="/more">Voir plus ...</Link></li>
+            <li className="nav-item"><Link class="dropdown-item" to="/admission">Mot de prsident</Link></li>
           </ul>
 
         </li> 
@@ -157,18 +158,18 @@ function Navbar() {
         <li className="nav-item" >
         <Link className="nav-link" role="button" data-bs-toggle="dropdown" aria-expanded="false" to="#">Biblioteques</Link>
           <ul class="dropdown-menu">
-            <li className="nav-item"><Link class="dropdown-item" to="#">Action</Link></li>
-            <li className="nav-item"><Link class="dropdown-item" to="#">Another action</Link></li>
-            <li className="nav-item"><Link class="dropdown-item" to="#">Something else here</Link></li>
+            <li className="nav-item"><Link class="dropdown-item" to="#">Bibliotheques Nationale</Link></li>
+            <li className="nav-item"><Link class="dropdown-item" to="#">Librairies</Link></li>
+            <li className="nav-item"><Link class="dropdown-item" to="#">Tous Documents</Link></li>
           </ul>
         </li>
 
         <li className="nav-item" role="button" data-bs-toggle="dropdown" aria-expanded="false">
         <Link className="nav-link" role="button" data-bs-toggle="dropdown" aria-expanded="false" to="#">Recherches et Innovations</Link>
           <ul class="dropdown-menu">
-            <li className="nav-item"><Link class="dropdown-item" to="#">Action</Link></li>
-            <li className="nav-item"><Link class="dropdown-item" to="#">Another action</Link></li>
-            <li className="nav-item"><Link class="dropdown-item" to="#">Something else here</Link></li>
+            <li className="nav-item"><Link class="dropdown-item" to="#">Partenaires Universitaires</Link></li>
+            <li className="nav-item"><Link class="dropdown-item" to="#"></Link></li>
+            <li className="nav-item"><Link class="dropdown-item" to="#">Recherche et l'internationale</Link></li>
           </ul>
         </li>
     </ul>

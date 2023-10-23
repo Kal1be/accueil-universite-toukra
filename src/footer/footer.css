@@ -115,7 +115,12 @@
    font-family:sans-serif;
    color: gray;
   }
-  
+  .texte{
+    color:rgb(44, 153, 226) !important;
+    font-weight: 600;
+    text-decoration:underline dashed rgb(44, 153, 226);
+    cursor: pointer;
+  }
   @media (max-width:800px){
     #mytopelement{
       margin-top: 5px;
@@ -165,6 +170,7 @@
     border: 1px solid rgb(39, 113, 252);
     transition: color,border .33s linear;
   }
+ 
  
   #containerfooter ul{
     margin: 0 0;

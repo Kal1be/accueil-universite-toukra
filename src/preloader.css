@@ -13,18 +13,19 @@
 
 @keyframes preloader {
     0%{background-color: aliceblue;}
-    50%{background-color: white;}
+    90%{background-color: white;}
     100%{background-color: aliceblue;}
 }
 .loader{
-    color: #23b2ff;
+    color: gray;
     font-weight: 600;
     animation: loader 2s linear infinite;
+  
 }
 @keyframes loader {
-    0%{color:aliceblue}
-    90%{color: #23b2ff;}
-    100%{color: aliceblue;}
+    0%{color:blue}
+    50%{color: yellow;}
+    100%{color: red;}
 }
 .ching{
     width: 140px;
@@ -35,7 +36,7 @@
 }
 .ching:nth-child(1){
     border-bottom-width: 6px;
-   border-bottom-color: #2049ff;
+   border-bottom-color: #4ca0fa;
     animation: animation1 2s linear infinite;
 }
 .ching:nth-child(2){
@@ -64,25 +65,25 @@
 @media(max-width:800px){
    
     .ching{
-        width: 100px;
-        height: 100px;
+        width: 130px;
+        height: 130px;
         border: 1px solid aliceblue;
         border-radius: 50%;
        position: absolute;
     }
 
     .ching:nth-child(1){
-        border-bottom-width: 4px;
-       border-bottom-color: #2049ff;
+        border-bottom-width: 6px;
+       border-bottom-color: #0754c0;
         animation: animation1 2s linear infinite;
     }
     .ching:nth-child(2){
-        border-right-width: 4px;
+        border-right-width: 6px;
        border-right-color: red;
         animation: animation2 2s linear infinite;
     }
     .ching:nth-child(3){
-        border-top-width: 4px;
+        border-top-width: 6px;
        border-top-color: yellow;
         animation: animation3 2s linear infinite;
     }

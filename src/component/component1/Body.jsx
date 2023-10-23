@@ -38,7 +38,7 @@ function Body() {
                   <img hre src={img4} alt="l'icon ne peut"/>
                   <h4>Centre d'enseignement à
 distance</h4>
-                  <p>Si vous n'êtes pas disponible a l'université physiquement.
+                  <p className="tagline">Si vous n'êtes pas disponible a l'université physiquement.
                      Notre université vous donne la chance de gagner un diplôme
                       via une apprentissage à distance.
 
@@ -48,18 +48,18 @@ distance</h4>
                 <img src={img5} alt="l'icon ne peut"/>
                  <h4>Programme de premier
 cycle</h4>
-                 <p>L'université de Toukra produit plus de 20000 place chaque annèe pour les nouveaux étudiants.</p>
+                 <p className="tagline">L'université de Toukra produit plus de 20000 place chaque annèe pour les nouveaux étudiants.</p>
                 </div>
                 <div className="col-sm-6 col-12">
                 <img src={img6} alt="l'icon ne peut"/>
                  <h4>LVT/DIplome</h4>
-                 <p>Maintenant pour ceux qui peuvent être disponible à l'espace de 2 ou 3 mois par ans pour étudier pour un Diploma.</p>
+                 <p className="tagline">Maintenant pour ceux qui peuvent être disponible à l'espace de 2 ou 3 mois par ans pour étudier pour un Diploma.</p>
                 </div>
                 <div className="col-sm-5 col-12">
                 <img src={img7} alt="l'icon ne peut"/>
                  <h4>
 La vie universitaire</h4>
-                 <p>L'universite offre plus de 10000 logements pour ses etudiants et offre une meilleur centre de sante pour le bien de ces etudiants.</p>
+                 <p className="tagline">L'universite offre plus de 10000 logements pour ses etudiants et offre une meilleur centre de sante pour le bien de ces etudiants.</p>
                 </div>
             </div>
         </div>
@@ -78,7 +78,7 @@ La vie universitaire</h4>
   
  <div class="mb-lg-2  mb-1" id="textererea">
     <label for="exampleInputPassword1" class="form-label">Votre message ici</label>
-  <textarea name="textarea" id="texterea" className="form-control" cols="30" rows="6" placeholder="entrer votre message ici ..." value={formState.textarea} onChange={handlechange}></textarea>
+  <textarea name="textarea" id="texterea" className="form-control" cols="30" rows="7" placeholder="entrer votre message ici ..." value={formState.textarea} onChange={handlechange}></textarea>
   </div>
   <button type="submit" class="btn  mt-2">Envoyer <FontAwesomeIcon icon={faPaperPlane} className="mx-2"/></button>
 </form>

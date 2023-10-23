@@ -4,6 +4,7 @@ import {faArrowLeft,faArrowRight,faPhone} from '@fortawesome/free-solid-svg-icon
 import img1 from "../../img/img1/reel1.jpg"
 import img2 from "../../img/img1/reel4.jpg"
 import img3 from "../../img/img1/reel5.jpg"
+import { Link } from 'react-router-dom';
 
 
 
@@ -23,25 +24,25 @@ function Carousel() {
         <div className="carousel-item active" id="carousel-item">
           <img src={img1} className="d-block w-100" alt="..." />
           <div className="carousel-caption  d-md-block" id="carousel-caption">
-            <p>Bienvenue devant notre E-learning</p>
-            <h3>Mahamat Saleh Haggar vous souhaite la bienvenue</h3>
-            <button>lire plus..</button>
+            <p className='tagline'>Bienvenue devant notre E-learning</p>
+            <h3 className='tagline'>Mahamat Saleh Haggar vous souhaite la bienvenue</h3>
+            <button><Link to="/accueil" className='text-decoration-none text-white'>Lire plus..</Link></button>
           </div>
         </div>
         <div className="carousel-item" id="carousel-item">
           <img src={img2} className="d-block w-100" alt="..." />
           <div className="carousel-caption  d-md-block" id="carousel-caption">
-            <p>Bienvenue devant notre Organisation</p>
-            <h3>L'Education est la cles du success de la vie</h3>
-            <button>Nos Cours..</button>
+            <p className='tagline'>Bienvenue devant notre Organisation</p>
+            <h3 className='tagline' >L'Education est la cles du success de la vie</h3>
+            <button><Link to="/accueil/programme"  className='text-decoration-none text-white'>Programmes</Link></button>
           </div>
         </div>
         <div className="carousel-item" id="carousel-item">
           <img src={img3} className="d-block w-100" alt="..." />
           <div className="carousel-caption  d-md-block" id="carousel-caption">
-            <p>Bienvenue a l'universite de Toukra</p>
-            <h3>L'Education est la cles du success d'une nation</h3>
-            <button>Nos Cours..</button>
+            <p className='tagline'>Bienvenue a l'universite de Toukra</p>
+            <h3 className='tagline'>L'Education est la cles du success d'une nation</h3>
+            <button><Link to="/accueil/cours"  className='text-decoration-none text-white'>Nos Cours</Link></button>
           </div>
         </div>
       </div>
