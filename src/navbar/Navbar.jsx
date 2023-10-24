@@ -113,7 +113,7 @@ function Navbar() {
         Recherches
           </span>
           <ul class="dropdown-menu">
-            <li className='nav-item'><Link class="dropdown-item" to="/">Admission et nouvelles</Link></li>
+            <li className='nav-item'><a class="dropdown-item" href="#/admission">Admission et nouvelles</a></li>
             <li className="nav-item"><Link class="dropdown-item" to="/">Politiques de Confidentialites</Link></li>
             <li className="nav-item"><Link class="dropdown-item" to="/">Librairies</Link></li>
             <li className="nav-item"><Link class="dropdown-item" to="/">Ecoles Doctorales</Link></li>
