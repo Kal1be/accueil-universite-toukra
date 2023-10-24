@@ -6,9 +6,15 @@ import Flipcard from '../component/component1/Flipcard'
 import { First } from "../component/component1/First"
 import Secondone from '../component/component1/Secondone'
 import Slide from "../component/component1/Slide"
+import Header from "../header/Header"
+import Navbar from "../navbar/Navbar"
+import Footer from "../footer/Footer"
 
 function Home() {
   return (
+    <>
+    <Header/>
+    <Navbar/>
     <div className='delta1'>
       <Carousel/>
     <Body/>
@@ -18,6 +24,8 @@ function Home() {
     <Secondone/>
     <First/>
     </div>
+    <Footer/>
+    </>
   )
 }
 

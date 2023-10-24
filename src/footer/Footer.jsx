@@ -21,41 +21,41 @@ function Footer() {
     <div className="col-lg-3 col-md-6 col-12" id="mytopelement">
     <h3 className="mx-md-4 mx-3">installations et services</h3>
     <ul>
-      <li><FontAwesomeIcon icon={faChevronRight} className="differentsicon"/><span> Centre de conseil et de developpement
-      humain</span></li>
-      <li><FontAwesomeIcon icon={faChevronRight} className="differentsicon"/><span>service de sante universitaires </span></li>
-      <li><FontAwesomeIcon icon={faChevronRight} className="differentsicon"/><span>Centre de Sante de nos etudiants</span></li>
-      <li><FontAwesomeIcon icon={faChevronRight} className="differentsicon"/><span> Directions des Affaires</span></li>
+      <li><FontAwesomeIcon icon={faChevronRight} className="differentsicon"/><Link to="/" className="text-decoration-none"><span> Centre de conseil et de developpement
+      humain</span></Link></li>
+      <li><FontAwesomeIcon icon={faChevronRight} className="differentsicon"/><Link to="/"  className="text-decoration-none"><span>service de sante universitaires </span></Link></li>
+      <li><FontAwesomeIcon icon={faChevronRight} className="differentsicon"/><Link to="/" className="text-decoration-none"><span>Centre de Sante de nos etudiants</span></Link></li>
+      <li><FontAwesomeIcon icon={faChevronRight} className="differentsicon"/><Link to="/" className="text-decoration-none"><span> Directions des Affaires</span></Link></li>
     </ul>
     </div>
     <div className="col-lg-3 col-md-6 col-12" id="mytopelement">
     <h3 className="mx-md-4 mx-3">Autres liens</h3>
     <ul>
-      <li><FontAwesomeIcon icon={faChevronRight} className="differentsicon"/><span>Bibliotheques de l'universitè</span></li>
-      <li><FontAwesomeIcon icon={faChevronRight}className="differentsicon"/><span>Politique de confidentialitè</span></li>
-      <li><FontAwesomeIcon icon={faChevronRight}className="differentsicon"/><span>Ecoles Normales superieures</span></li>
-      <li><FontAwesomeIcon icon={faChevronRight}className="differentsicon"/><span>Librairies de l'universitè</span></li>
+      <li><FontAwesomeIcon icon={faChevronRight} className="differentsicon"/><Link to="/"  className="text-decoration-none"><span>Bibliotheques de l'universitè</span></Link></li>
+      <li><FontAwesomeIcon icon={faChevronRight}className="differentsicon"/><Link to="/" className="text-decoration-none"><span>Politique de confidentialitè</span></Link></li>
+      <li><FontAwesomeIcon icon={faChevronRight}className="differentsicon"/><Link to="/"  className="text-decoration-none"><span>Ecoles Normales superieures</span></Link></li>
+      <li><FontAwesomeIcon icon={faChevronRight}className="differentsicon"/><Link to="/" className="text-decoration-none"><span>Librairies de l'universitè</span></Link></li>
     </ul>
     </div>
     <div className="col-lg-3 col-md-6 col-12" id="mytopelement">
     <h3 className="mx-md-4 mx-3">Facultes</h3>
     <ul>
-      <li><FontAwesomeIcon icon={faChevronRight}className="differentsicon"/><span>Facultè des Langues et Lettres Arts et Communication</span></li>
-      <li><FontAwesomeIcon icon={faChevronRight}className="differentsicon"/><span>Facultès des Sciences et de l'Education</span></li>
-      <li><FontAwesomeIcon icon={faChevronRight}className="differentsicon"/><span>Facultes des sciences Humaines et Sociales</span></li>
-      <li><FontAwesomeIcon icon={faChevronRight}className="differentsicon"/><span>Facultés des Sciences Juridiques et Politique</span></li>
+      <li><FontAwesomeIcon icon={faChevronRight}className="differentsicon"/><Link to="/" className="text-decoration-none"><span>Facultè des Langues et Lettres Arts et Communication</span></Link></li>
+      <li><FontAwesomeIcon icon={faChevronRight}className="differentsicon"/><Link to="/" className="text-decoration-none"><span>Facultès des Sciences et de l'Education</span></Link></li>
+      <li><FontAwesomeIcon icon={faChevronRight}className="differentsicon"/><Link to="/" className="text-decoration-none"><span>Facultes des sciences Humaines et Sociales</span></Link></li>
+      <li><FontAwesomeIcon icon={faChevronRight}className="differentsicon"/><Link to="/" className="text-decoration-none"><span>Facultés des Sciences Juridiques et Politique</span></Link></li>
     </ul>
     </div>
   </div>
   <hr />
   <div className="row" id="endfooter">
-  <div className="col-md-6 col-12 text-center"><span>Copyright &copy;2023 Universite de Toukra, tous droits reserves.Developpez par <span className="texte">DevSoftware Yahoulbo</span></span></div>
+  <div className="col-md-6 col-12 text-center"><span>Copyright &copy;2023 Universite de Toukra, tous droits reserves.Developpez par <span className="texte"><Link to="/"> DevSoftware Yahoulbo</Link></span></span></div>
   <div className="col-md-6 col-12 d-flex fs-2 justify-content-center">
-    <FontAwesomeIcon icon={faFacebook} className="iconfooterfacebook"/>
-    <FontAwesomeIcon icon={faWhatsapp} className="iconfooterfacebook"/>
-    <FontAwesomeIcon icon={faLinkedin} className="iconfooterfacebook"/>
-    <FontAwesomeIcon icon={faInstagram} className="iconfooterfacebook"/>
-    <FontAwesomeIcon icon={faTwitter} className="iconfooterfacebook"/>
+   <Link to="/"><FontAwesomeIcon icon={faFacebook} className="iconfooterfacebook"/></Link> 
+    <Link to="/"><FontAwesomeIcon icon={faWhatsapp} className="iconfooterfacebook"/></Link>
+  <Link to="/">  <FontAwesomeIcon icon={faLinkedin} className="iconfooterfacebook"/></Link>
+   <Link to="/"> <FontAwesomeIcon icon={faInstagram} className="iconfooterfacebook"/></Link>
+  <Link to="/">  <FontAwesomeIcon icon={faTwitter} className="iconfooterfacebook"/></Link>
   </div>
   </div>
   </div>

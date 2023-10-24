@@ -23,9 +23,9 @@
   
 }
 @keyframes loader {
-    0%{color:blue}
-    50%{color: yellow;}
-    100%{color: red;}
+    0%{color:#4ca0fa}
+    50%{color: white;}
+    100%{color: #4ca0fa;}
 }
 .ching{
     width: 140px;

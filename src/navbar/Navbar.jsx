@@ -4,11 +4,10 @@ import {Link} from "react-router-dom"
 import { NavLink } from 'react-router-dom'
 import img1 from "../img/img1/drapeau1.png"
 import img2 from "../img/img1/im6.png";
-import Header from '../header/Header';
+import Header from "../header/Header"
 function Navbar() {
   return (
     <div>
-       <Header/>
      <nav className="navbar navbar-expand-lg px-lg-2 px-0 shadow border bg-white" id='navbar'>
   <div className="container-fluid">
 <Link className='navbar-brand' to="#"><img src={img2} alt="" className='image1'/>Universite de <strong >Toukra</strong><span className="divider"><img src={img1} alt="the problem is there" /></span></Link>
@@ -25,7 +24,7 @@ function Navbar() {
   <div className="collapse navbar-collapse justify-content-end d-lg-none" id="navbarSupportedContent">
     <ul className="navbar-nav">
       <li className="nav-item">
-      <Link className="nav-link active" aria-current="page" to="#/">Accueil</Link>
+      <Link className="nav-link active" aria-current="page" to="/">Accueil</Link>
       </li>
       <li class="nav-item">
         <Link class="nav-link" to="/">
@@ -107,18 +106,18 @@ function Navbar() {
     <div className="offcanvas-body scroll-auto">
     <ul className="navbar-nav">
       <li className="nav-item">
-      <Link className="nav-link " aria-current="page" to="/">Accueil</Link>
+      <Link className="nav-link "  to="/">Accueil</Link>
       </li>
       <li class="nav-item">
-        <Link class="nav-link "  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <span class="nav-link "  role="button" data-bs-toggle="dropdown" aria-expanded="false">
         Recherches
-          </Link>
+          </span>
           <ul class="dropdown-menu">
-            <li className='nav-item'><Link class="dropdown-item" to="/accueil">Admission et nouvelles</Link></li>
-            <li className="nav-item"><Link class="dropdown-item" to="/politiques">Politiques de Confidentialites</Link></li>
-            <li className="nav-item"><Link class="dropdown-item" to="/librairies">Librairies</Link></li>
-            <li className="nav-item"><Link class="dropdown-item" to="/politiques/ecoles">Ecoles Doctorales</Link></li>
-            <li className="nav-item"><Link class="dropdown-item" to="/librairies">Droits d'auteur</Link></li>
+            <li className='nav-item'><Link class="dropdown-item" to="/">Admission et nouvelles</Link></li>
+            <li className="nav-item"><Link class="dropdown-item" to="/">Politiques de Confidentialites</Link></li>
+            <li className="nav-item"><Link class="dropdown-item" to="/">Librairies</Link></li>
+            <li className="nav-item"><Link class="dropdown-item" to="/">Ecoles Doctorales</Link></li>
+            <li className="nav-item"><Link class="dropdown-item" to="/">Droits d'auteur</Link></li>
           </ul>
         </li>
         
@@ -148,7 +147,7 @@ function Navbar() {
         </li> 
      
         <li className="nav-item" >
-        <Link className="nav-link " role="button" data-bs-toggle="dropdown" aria-expanded="false" to="#">Nouvelles </Link>
+        < span className="nav-link " role="button" data-bs-toggle="dropdown" aria-expanded="false">Nouvelles </span>
           <ul class="dropdown-menu">
             <li className="nav-item"><Link class="dropdown-item" to="#">Action</Link></li>
             <li className="nav-item"><Link class="dropdown-item" to="#">Another action</Link></li>

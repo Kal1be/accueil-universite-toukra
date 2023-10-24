@@ -32,8 +32,12 @@
   transition: color .2s ease;
   cursor: pointer;
 }
-#containerfooter ul li:hover{
-  color:#33a0f8 ;
+#containerfooter ul li Link{
+  color: gray;
+  transition: .3s linear;
+}
+#containerfooter ul li Link:hover{
+  color:#33a0f8 !important;
 }
 .navbar-brand strong{
   color: #33a0f8;
@@ -71,20 +75,24 @@
     width: 16px;
     height: 16px;
     border-radius: 50%;
-    color: rgb(39, 113, 252);
+    color: rgb(44, 153, 226);
     padding: 8px;
-    border: 1px solid rgb(39, 113, 252);
+    border: 1px solid rgb(44, 153, 226);
     transition: color,border .33s linear;
   }
   .iconfooterfacebook:hover{
-    background-color:rgb(39, 113, 252) ;
+    background-color:rgb(44, 153, 226);
     color: white;
   }
   #containerfooter ul li span{
     transition: .2s linear;
+    color: gray;
   }
   #containerfooter ul li span:hover{
     margin-left: 3px;
+  }
+  #containerfooter ul li {
+    text-decoration: none !important;
   }
   .iconfooterlinke:hover{
     background-color:rgb(3, 63, 175) ;
@@ -117,9 +125,10 @@
   }
   .texte{
     color:rgb(44, 153, 226) !important;
-    font-weight: 600;
+    font-weight: 400;
     text-decoration:underline dashed rgb(44, 153, 226);
     cursor: pointer;
+    text-decoration: none;
   }
   @media (max-width:800px){
     #mytopelement{
@@ -182,6 +191,9 @@
     line-height: 2.2rem;
     font-size: 16px;
    
+  }
+  #containerfooter ul li Link:hover{
+    color:#33a0f8 !important;
   }
   #containerfooter ul li span{
     transition: .2s linear;
